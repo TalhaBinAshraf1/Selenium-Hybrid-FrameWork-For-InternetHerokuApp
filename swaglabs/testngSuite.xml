@@ -1,0 +1,198 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name = "Regression" verbose="1">
+    <test name = "UITest">
+        <classes>
+
+            <class name ="com.saucedemo.swaglabs.testCases.UserAbleToClickOnCreateNewAccount">
+                <methods>
+                    <exclude name="userAbleToClickOnCreateNewAccount" />
+                </methods>
+            </class>
+
+            <class name ="com.saucedemo.swaglabs.testCases.UserAbleToClickOnForgetPassword">
+                <methods>
+                    <exclude name="userAbleToClickOnForgetPassword" />
+                </methods>
+            </class>
+
+            <class name ="com.saucedemo.swaglabs.testCases.ABTesting">
+                <methods>
+                    <exclude name="aBTesting" />
+                </methods>
+            </class>
+
+            <class name ="com.saucedemo.swaglabs.testCases.AddRemoveElements">
+                <methods>
+                    <include name="addRemoveElements" />
+                </methods>
+            </class>
+
+            <class name ="com.saucedemo.swaglabs.testCases.BasicAuth">
+                <methods>
+                    <include name="basicAuth" />
+                </methods>
+            </class>
+
+            <class name ="com.saucedemo.swaglabs.testCases.BrokenImage">
+                <methods>
+                    <include name="brokenImage" />
+                </methods>
+            </class>
+
+            <class name ="com.saucedemo.swaglabs.testCases.Checkboxes">
+                <methods>
+                    <include name="checkboxes" />
+                </methods>
+            </class>
+
+            <class name ="com.saucedemo.swaglabs.testCases.ContextMenu">
+                <methods>
+                    <include name="contextMenu" />
+                </methods>
+            </class>
+
+            <class name ="com.saucedemo.swaglabs.testCases.DigestAuthentication">
+                <methods>
+                    <include name="digestAuthentication" />
+                </methods>
+            </class>
+
+            <class name ="com.saucedemo.swaglabs.testCases.DisappearingElements">
+                <methods>
+                    <include name="disappearingElements" />
+                </methods>
+            </class>
+
+            <class name ="com.saucedemo.swaglabs.testCases.DragAndDrop">
+                <methods>
+                    <include name="dragAndDrop" />
+                </methods>
+            </class>
+
+            <class name ="com.saucedemo.swaglabs.testCases.DropDown">
+                <methods>
+                    <include name="dropDown" />
+                </methods>
+            </class>
+
+            <class name ="com.saucedemo.swaglabs.testCases.DynamicContent">
+                <methods>
+                    <include name="dynamicContent" />
+                </methods>
+            </class>
+
+            <class name ="com.saucedemo.swaglabs.testCases.DynamicControl">
+                <methods>
+                    <include name="dynamicControl" />
+                </methods>
+            </class>
+            <class name ="com.saucedemo.swaglabs.testCases.FileUpload">
+                <methods>
+                    <include name="fileUpload" />
+                </methods>
+            </class>
+
+            <class name ="com.saucedemo.swaglabs.testCases.FileDownload">
+                <methods>
+                    <include name="fileDownload" />
+                </methods>
+            </class>
+
+            <class name ="com.saucedemo.swaglabs.testCases.ForgotPassword">
+                <methods>
+                    <include name="forgotPassword" />
+                </methods>
+            </class>
+
+
+            <class name ="com.saucedemo.swaglabs.testCases.FormAuth">
+                <methods>
+                    <include name="formAuth" />
+                </methods>
+            </class>
+
+            <class name ="com.saucedemo.swaglabs.testCases.HorizontalSlider">
+                <methods>
+                    <include name="horizontalSlider" />
+                </methods>
+            </class>
+
+            <class name ="com.saucedemo.swaglabs.testCases.Iframe">
+                <methods>
+                    <include name="iframe" />
+                </methods>
+            </class>
+
+            <class name ="com.saucedemo.swaglabs.testCases.InfiniteScroll">
+                <methods>
+                    <include name="infiniteScroll" />
+                </methods>
+            </class>
+
+            <class name ="com.saucedemo.swaglabs.testCases.Input">
+                <methods>
+                    <include name="input" />
+                </methods>
+            </class>
+
+            <class name ="com.saucedemo.swaglabs.testCases.JavaScriptAlert">
+                <methods>
+                    <include name="javaScriptAlert" />
+                </methods>
+            </class>
+
+            <class name ="com.saucedemo.swaglabs.testCases.MouseHover">
+                <methods>
+                    <include name="mouseHover" />
+                </methods>
+            </class>
+
+            <class name ="com.saucedemo.swaglabs.testCases.MultipleWindows">
+                <methods>
+                    <include name="multipleWindows" />
+                </methods>
+            </class>
+
+            <class name ="com.saucedemo.swaglabs.testCases.NestedFrames">
+                <methods>
+                    <include name="nestedFrames" />
+                </methods>
+            </class>
+
+            <class name ="com.saucedemo.swaglabs.testCases.NotificationMessage">
+                <methods>
+                    <include name="notificationMessage" />
+                </methods>
+            </class>
+
+
+            <class name ="com.saucedemo.swaglabs.testCases.RedirectLink">
+                <methods>
+                    <include name="redirectLink" />
+                </methods>
+            </class>
+
+            <class name ="com.saucedemo.swaglabs.testCases.ScreenshotOfWebpage">
+                <methods>
+                    <include name="screenshotOfWebpage" />
+                </methods>
+            </class>
+
+            <class name ="com.saucedemo.swaglabs.testCases.ScreenshotOfAnElement">
+                <methods>
+                    <include name="screenshotOfAnElement" />
+                </methods>
+            </class>
+
+            <class name ="com.saucedemo.swaglabs.testCases.FullPageScreenShot">
+                <methods>
+                    <include name="fullPageScreenShot" />
+                </methods>
+            </class>
+
+
+
+        </classes>
+    </test>
+</suite>
