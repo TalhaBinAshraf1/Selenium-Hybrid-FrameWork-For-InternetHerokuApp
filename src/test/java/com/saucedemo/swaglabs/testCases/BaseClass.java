@@ -1,7 +1,9 @@
 package com.saucedemo.swaglabs.testCases;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
@@ -21,15 +23,17 @@ public class BaseClass {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);*/
-        String baseDir = System.getProperty("user.dir");
 
-        String chromeDir = baseDir + "/browser/chromedriver22.exe";
-        System.setProperty("webdriver.chrome.driver", chromeDir);
 
         //String firefoxDir = baseDir + "/browser/geckodriver";
         //System.setProperty("webdriver.gecko.driver", firefoxDir);
 
+        WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
+
+//        WebDriverManager.firefoxdriver().setup();
+//        driver = new FirefoxDriver();
+//
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
     }
