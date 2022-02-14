@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="871670f7-1070-4162-9439-2f57ab8876e2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_11.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testngSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testngSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swaglabs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/swaglabs.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,22 +65,7 @@
       <recent name="com.saucedemo.swaglabs.testCases" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Input">
-    <configuration name="ResponsiveWebTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="swaglabs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.saucedemo.swaglabs.basicJava.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.saucedemo.swaglabs.basicJava" />
-      <option name="MAIN_CLASS_NAME" value="com.saucedemo.swaglabs.basicJava.ResponsiveWebTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.ContextMenu">
     <configuration name="ABTesting" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="swaglabs" />
       <extension name="coverage">
@@ -89,6 +76,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.saucedemo.swaglabs.testCases" />
       <option name="MAIN_CLASS_NAME" value="com.saucedemo.swaglabs.testCases.ABTesting" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContextMenu" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="swaglabs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.saucedemo.swaglabs.testCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.saucedemo.swaglabs.testCases" />
+      <option name="MAIN_CLASS_NAME" value="com.saucedemo.swaglabs.testCases.ContextMenu" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -142,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ContextMenu" />
         <item itemvalue="TestNG.Input" />
         <item itemvalue="TestNG.ABTesting" />
         <item itemvalue="TestNG.UserAbleToClickOnCreateNewAccount" />
         <item itemvalue="TestNG.F:/Talha/SQA/Github/sqabdautomation/Java/Talha/swaglabs/testngSuite.xml" />
-        <item itemvalue="JUnit.ResponsiveWebTest" />
       </list>
     </recent_temporary>
   </component>
