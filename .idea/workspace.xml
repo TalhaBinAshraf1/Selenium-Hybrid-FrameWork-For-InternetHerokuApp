@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="871670f7-1070-4162-9439-2f57ab8876e2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/AddRemoveElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/AddRemoveElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/BaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/ContextMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/ContextMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/FormAuth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/FormAuth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testngSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testngSuite.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +22,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -46,7 +44,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../SeleniumAutomationPractice/ecommerce" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.27287066" />
     <property name="project.structure.side.proportion" value="0.2" />
