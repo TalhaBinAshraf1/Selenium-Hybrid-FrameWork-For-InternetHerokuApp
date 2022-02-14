@@ -66,7 +66,7 @@
 
             <class name ="com.saucedemo.swaglabs.testCases.DragAndDrop">
                 <methods>
-                    <include name="dragAndDrop" />
+                    <exclude name="dragAndDrop" />
                 </methods>
             </class>
 

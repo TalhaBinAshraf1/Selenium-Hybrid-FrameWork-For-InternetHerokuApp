@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="871670f7-1070-4162-9439-2f57ab8876e2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_11.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/BaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/swaglabs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/swaglabs.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testngSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testngSuite.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
