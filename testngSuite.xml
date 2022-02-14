@@ -89,13 +89,13 @@
             </class>
             <class name ="com.saucedemo.swaglabs.testCases.FileUpload">
                 <methods>
-                    <include name="fileUpload" />
+                    <exclude name="fileUpload" />
                 </methods>
             </class>
 
             <class name ="com.saucedemo.swaglabs.testCases.FileDownload">
                 <methods>
-                    <include name="fileDownload" />
+                    <exclude name="fileDownload" />
                 </methods>
             </class>
 
