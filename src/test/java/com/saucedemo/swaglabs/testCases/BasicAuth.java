@@ -56,5 +56,7 @@ public class BasicAuth extends BaseClass{
         driver.navigate().back();
         driver.navigate().back();
         sleepTest(2000);
+
+        System.out.println("Test Ran Successfully ");
     }
 }
