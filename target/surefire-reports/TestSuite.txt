@@ -1,4 +1,37 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1,035.851 sec - in TestSuite
+Tests run: 26, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 603.526 sec <<< FAILURE! - in TestSuite
+infiniteScroll(com.saucedemo.swaglabs.testCases.InfiniteScroll)  Time elapsed: 18.072 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:23306
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'DESKTOP-C6OQV70', ip: '192.168.0.193', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: driver.version: RemoteWebDriver
+	at com.saucedemo.swaglabs.testCases.InfiniteScroll.infiniteScroll(InfiniteScroll.java:42)
+Caused by: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:23306
+	at com.saucedemo.swaglabs.testCases.InfiniteScroll.infiniteScroll(InfiniteScroll.java:42)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at com.saucedemo.swaglabs.testCases.InfiniteScroll.infiniteScroll(InfiniteScroll.java:42)
+
+afterClass(com.saucedemo.swaglabs.testCases.InfiniteScroll)  Time elapsed: 18.089 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:23306
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'DESKTOP-C6OQV70', ip: '192.168.0.193', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: driver.version: RemoteWebDriver
+Caused by: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:23306
+Caused by: java.net.ConnectException: Connection refused: no further information
+
+screenshotOfWebpage(com.saucedemo.swaglabs.testCases.ScreenshotOfWebpage)  Time elapsed: 0.759 sec  <<< FAILURE!
+java.io.IOException: Destination 'G:\Talha\SQA\Github\sqabdautomation\Java\Talha\swaglabs\Images' directory cannot be created
+	at com.saucedemo.swaglabs.testCases.ScreenshotOfWebpage.screenshotOfWebpage(ScreenshotOfWebpage.java:20)
+
+screenshotOfAnElement(com.saucedemo.swaglabs.testCases.ScreenshotOfAnElement)  Time elapsed: 0.182 sec  <<< FAILURE!
+java.io.IOException: Destination 'G:\Talha\SQA\Github\sqabdautomation\Java\Talha\swaglabs\Images' directory cannot be created
+	at com.saucedemo.swaglabs.testCases.ScreenshotOfAnElement.screenshotOfAnElement(ScreenshotOfAnElement.java:37)
+
+fullPageScreenShot(com.saucedemo.swaglabs.testCases.FullPageScreenShot)  Time elapsed: 4.324 sec  <<< FAILURE!
+javax.imageio.IIOException: Can't create an ImageOutputStream!
+	at com.saucedemo.swaglabs.testCases.FullPageScreenShot.fullPageScreenShot(FullPageScreenShot.java:26)
+

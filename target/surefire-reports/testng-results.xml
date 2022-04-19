@@ -1,626 +1,832 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="3" total="31" passed="28" failed="0" skipped="0">
+<testng-results ignored="6" total="31" passed="21" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-09-21T17:22:20Z" name="Regression" finished-at="2021-09-21T17:39:34Z" duration-ms="1034651">
+  <suite started-at="2022-04-15T06:52:14Z" name="Regression" finished-at="2022-04-15T07:02:18Z" duration-ms="603292">
     <groups>
     </groups>
-    <test started-at="2021-09-21T17:22:20Z" name="UITest" finished-at="2021-09-21T17:39:34Z" duration-ms="1034651">
+    <test started-at="2022-04-15T06:52:14Z" name="UITest" finished-at="2022-04-15T07:02:18Z" duration-ms="603292">
       <class name="com.saucedemo.swaglabs.testCases.DynamicContent">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.DynamicContent@23bb8443]" started-at="2021-09-21T17:28:57Z" name="beforeClass" finished-at="2021-09-21T17:28:58Z" duration-ms="1548" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.DynamicContent@429bd883]" started-at="2022-04-15T06:53:56Z" name="beforeClass" finished-at="2022-04-15T06:53:57Z" duration-ms="622" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.saucedemo.swaglabs.testCases.DynamicContent@23bb8443]" started-at="2021-09-21T17:28:58Z" name="beforeMethod" finished-at="2021-09-21T17:29:16Z" duration-ms="18298" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.saucedemo.swaglabs.testCases.DynamicContent@429bd883]" started-at="2022-04-15T06:53:57Z" name="beforeMethod" finished-at="2022-04-15T06:54:02Z" duration-ms="4910" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="dynamicContent()[pri:0, instance:com.saucedemo.swaglabs.testCases.DynamicContent@23bb8443]" started-at="2021-09-21T17:29:16Z" name="dynamicContent" finished-at="2021-09-21T17:29:29Z" duration-ms="12577" status="PASS">
+        <test-method signature="dynamicContent()[pri:0, instance:com.saucedemo.swaglabs.testCases.DynamicContent@429bd883]" started-at="2022-04-15T06:54:02Z" name="dynamicContent" finished-at="2022-04-15T06:54:14Z" duration-ms="12788" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dynamicContent -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.DynamicContent@23bb8443]" started-at="2021-09-21T17:29:29Z" name="afterClass" finished-at="2021-09-21T17:29:29Z" duration-ms="427" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.DynamicContent@429bd883]" started-at="2022-04-15T06:54:14Z" name="afterClass" finished-at="2022-04-15T06:54:14Z" duration-ms="62" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.saucedemo.swaglabs.testCases.DynamicContent@23bb8443]" started-at="2021-09-21T17:29:29Z" name="afterTest" finished-at="2021-09-21T17:29:29Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.saucedemo.swaglabs.testCases.DynamicContent@429bd883]" started-at="2022-04-15T06:54:14Z" name="afterTest" finished-at="2022-04-15T06:54:14Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- com.saucedemo.swaglabs.testCases.DynamicContent -->
-      <class name="com.saucedemo.swaglabs.testCases.MultipleWindows">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.MultipleWindows@1445d7f]" started-at="2021-09-21T17:35:55Z" name="beforeClass" finished-at="2021-09-21T17:35:56Z" duration-ms="1355" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.saucedemo.swaglabs.testCases.MultipleWindows@1445d7f]" started-at="2021-09-21T17:35:56Z" name="beforeMethod" finished-at="2021-09-21T17:36:09Z" duration-ms="12304" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="multipleWindows()[pri:0, instance:com.saucedemo.swaglabs.testCases.MultipleWindows@1445d7f]" started-at="2021-09-21T17:36:09Z" name="multipleWindows" finished-at="2021-09-21T17:36:29Z" duration-ms="20059" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- multipleWindows -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.saucedemo.swaglabs.testCases.MultipleWindows@1445d7f]" started-at="2021-09-21T17:36:29Z" name="afterTest" finished-at="2021-09-21T17:36:29Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.MultipleWindows@1445d7f]" started-at="2021-09-21T17:36:29Z" name="afterClass" finished-at="2021-09-21T17:36:29Z" duration-ms="305" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- com.saucedemo.swaglabs.testCases.MultipleWindows -->
       <class name="com.saucedemo.swaglabs.testCases.ForgotPassword">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.ForgotPassword@3444d69d]" started-at="2021-09-21T17:31:15Z" name="beforeClass" finished-at="2021-09-21T17:31:17Z" duration-ms="1516" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.ForgotPassword@279ad2e3]" started-at="2022-04-15T06:53:21Z" name="beforeClass" finished-at="2022-04-15T06:53:21Z" duration-ms="654" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.saucedemo.swaglabs.testCases.ForgotPassword@3444d69d]" started-at="2021-09-21T17:31:17Z" name="beforeMethod" finished-at="2021-09-21T17:31:29Z" duration-ms="11948" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.saucedemo.swaglabs.testCases.ForgotPassword@279ad2e3]" started-at="2022-04-15T06:53:21Z" name="beforeMethod" finished-at="2022-04-15T06:53:26Z" duration-ms="5142" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="forgotPassword()[pri:0, instance:com.saucedemo.swaglabs.testCases.ForgotPassword@3444d69d]" started-at="2021-09-21T17:31:29Z" name="forgotPassword" finished-at="2021-09-21T17:31:43Z" duration-ms="14111" status="PASS">
+        <test-method signature="forgotPassword()[pri:0, instance:com.saucedemo.swaglabs.testCases.ForgotPassword@279ad2e3]" started-at="2022-04-15T06:53:26Z" name="forgotPassword" finished-at="2022-04-15T06:53:39Z" duration-ms="12834" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- forgotPassword -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.saucedemo.swaglabs.testCases.ForgotPassword@3444d69d]" started-at="2021-09-21T17:31:43Z" name="afterTest" finished-at="2021-09-21T17:31:43Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.saucedemo.swaglabs.testCases.ForgotPassword@279ad2e3]" started-at="2022-04-15T06:53:39Z" name="afterTest" finished-at="2022-04-15T06:53:39Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.ForgotPassword@3444d69d]" started-at="2021-09-21T17:31:43Z" name="afterClass" finished-at="2021-09-21T17:31:43Z" duration-ms="330" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.ForgotPassword@279ad2e3]" started-at="2022-04-15T06:53:39Z" name="afterClass" finished-at="2022-04-15T06:53:39Z" duration-ms="47" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.saucedemo.swaglabs.testCases.ForgotPassword -->
-      <class name="com.saucedemo.swaglabs.testCases.FormAuth">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.FormAuth@1372ed45]" started-at="2021-09-21T17:31:43Z" name="beforeClass" finished-at="2021-09-21T17:31:45Z" duration-ms="1566" status="PASS">
+      <class name="com.saucedemo.swaglabs.testCases.MultipleWindows">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.MultipleWindows@226a82c4]" started-at="2022-04-15T06:59:40Z" name="beforeClass" finished-at="2022-04-15T06:59:41Z" duration-ms="639" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.saucedemo.swaglabs.testCases.FormAuth@1372ed45]" started-at="2021-09-21T17:31:45Z" name="beforeMethod" finished-at="2021-09-21T17:31:54Z" duration-ms="9334" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.saucedemo.swaglabs.testCases.MultipleWindows@226a82c4]" started-at="2022-04-15T06:59:41Z" name="beforeMethod" finished-at="2022-04-15T06:59:45Z" duration-ms="4507" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="formAuth()[pri:0, instance:com.saucedemo.swaglabs.testCases.FormAuth@1372ed45]" started-at="2021-09-21T17:31:54Z" name="formAuth" finished-at="2021-09-21T17:32:17Z" duration-ms="22969" status="PASS">
+        <test-method signature="multipleWindows()[pri:0, instance:com.saucedemo.swaglabs.testCases.MultipleWindows@226a82c4]" started-at="2022-04-15T06:59:45Z" name="multipleWindows" finished-at="2022-04-15T07:00:05Z" duration-ms="19141" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- formAuth -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.FormAuth@1372ed45]" started-at="2021-09-21T17:32:17Z" name="afterClass" finished-at="2021-09-21T17:32:18Z" duration-ms="542" status="PASS">
+        </test-method> <!-- multipleWindows -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.saucedemo.swaglabs.testCases.MultipleWindows@226a82c4]" started-at="2022-04-15T07:00:05Z" name="afterTest" finished-at="2022-04-15T07:00:05Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.MultipleWindows@226a82c4]" started-at="2022-04-15T07:00:05Z" name="afterClass" finished-at="2022-04-15T07:00:05Z" duration-ms="62" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.saucedemo.swaglabs.testCases.FormAuth@1372ed45]" started-at="2021-09-21T17:32:17Z" name="afterTest" finished-at="2021-09-21T17:32:17Z" duration-ms="0" status="PASS">
+      </class> <!-- com.saucedemo.swaglabs.testCases.MultipleWindows -->
+      <class name="com.saucedemo.swaglabs.testCases.Input">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.Input@77e4c80f]" started-at="2022-04-15T06:57:48Z" name="beforeClass" finished-at="2022-04-15T06:57:48Z" duration-ms="623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.saucedemo.swaglabs.testCases.Input@77e4c80f]" started-at="2022-04-15T06:57:48Z" name="beforeMethod" finished-at="2022-04-15T06:57:53Z" duration-ms="5128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="input()[pri:0, instance:com.saucedemo.swaglabs.testCases.Input@77e4c80f]" started-at="2022-04-15T06:57:53Z" name="input" finished-at="2022-04-15T06:58:05Z" duration-ms="11098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- input -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.Input@77e4c80f]" started-at="2022-04-15T06:58:05Z" name="afterClass" finished-at="2022-04-15T06:58:05Z" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.saucedemo.swaglabs.testCases.Input@77e4c80f]" started-at="2022-04-15T06:58:05Z" name="afterTest" finished-at="2022-04-15T06:58:05Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.saucedemo.swaglabs.testCases.Input -->
+      <class name="com.saucedemo.swaglabs.testCases.FormAuth">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.FormAuth@58134517]" started-at="2022-04-15T06:54:14Z" name="beforeClass" finished-at="2022-04-15T06:54:15Z" duration-ms="684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.saucedemo.swaglabs.testCases.FormAuth@58134517]" started-at="2022-04-15T06:54:15Z" name="beforeMethod" finished-at="2022-04-15T06:54:20Z" duration-ms="4538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="formAuth()[pri:0, instance:com.saucedemo.swaglabs.testCases.FormAuth@58134517]" started-at="2022-04-15T06:54:20Z" name="formAuth" finished-at="2022-04-15T06:54:42Z" duration-ms="22722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formAuth -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.FormAuth@58134517]" started-at="2022-04-15T06:54:42Z" name="afterClass" finished-at="2022-04-15T06:54:42Z" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.saucedemo.swaglabs.testCases.FormAuth@58134517]" started-at="2022-04-15T06:54:42Z" name="afterTest" finished-at="2022-04-15T06:54:42Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- com.saucedemo.swaglabs.testCases.FormAuth -->
-      <class name="com.saucedemo.swaglabs.testCases.Input">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.Input@21a947fe]" started-at="2021-09-21T17:34:22Z" name="beforeClass" finished-at="2021-09-21T17:34:24Z" duration-ms="1877" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.saucedemo.swaglabs.testCases.Input@21a947fe]" started-at="2021-09-21T17:34:24Z" name="beforeMethod" finished-at="2021-09-21T17:34:32Z" duration-ms="7901" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="input()[pri:0, instance:com.saucedemo.swaglabs.testCases.Input@21a947fe]" started-at="2021-09-21T17:34:32Z" name="input" finished-at="2021-09-21T17:34:44Z" duration-ms="12131" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- input -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.saucedemo.swaglabs.testCases.Input@21a947fe]" started-at="2021-09-21T17:34:44Z" name="afterTest" finished-at="2021-09-21T17:34:44Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.Input@21a947fe]" started-at="2021-09-21T17:34:44Z" name="afterClass" finished-at="2021-09-21T17:34:45Z" duration-ms="791" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- com.saucedemo.swaglabs.testCases.Input -->
       <class name="com.saucedemo.swaglabs.testCases.RedirectLink">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.RedirectLink@12405818]" started-at="2021-09-21T17:37:31Z" name="beforeClass" finished-at="2021-09-21T17:37:32Z" duration-ms="1661" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.RedirectLink@1dd92fe2]" started-at="2022-04-15T07:00:54Z" name="beforeClass" finished-at="2022-04-15T07:00:54Z" duration-ms="666" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.saucedemo.swaglabs.testCases.RedirectLink@12405818]" started-at="2021-09-21T17:37:32Z" name="beforeMethod" finished-at="2021-09-21T17:37:44Z" duration-ms="11831" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.saucedemo.swaglabs.testCases.RedirectLink@1dd92fe2]" started-at="2022-04-15T07:00:54Z" name="beforeMethod" finished-at="2022-04-15T07:00:59Z" duration-ms="4539" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="redirectLink()[pri:0, instance:com.saucedemo.swaglabs.testCases.RedirectLink@12405818]" started-at="2021-09-21T17:37:44Z" name="redirectLink" finished-at="2021-09-21T17:38:42Z" duration-ms="58034" status="PASS">
+        <test-method signature="redirectLink()[pri:0, instance:com.saucedemo.swaglabs.testCases.RedirectLink@1dd92fe2]" started-at="2022-04-15T07:00:59Z" name="redirectLink" finished-at="2022-04-15T07:01:53Z" duration-ms="54327" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- redirectLink -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.saucedemo.swaglabs.testCases.RedirectLink@12405818]" started-at="2021-09-21T17:38:42Z" name="afterTest" finished-at="2021-09-21T17:38:42Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.saucedemo.swaglabs.testCases.RedirectLink@1dd92fe2]" started-at="2022-04-15T07:01:53Z" name="afterTest" finished-at="2022-04-15T07:01:53Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.RedirectLink@12405818]" started-at="2021-09-21T17:38:42Z" name="afterClass" finished-at="2021-09-21T17:38:42Z" duration-ms="353" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.RedirectLink@1dd92fe2]" started-at="2022-04-15T07:01:53Z" name="afterClass" finished-at="2022-04-15T07:01:53Z" duration-ms="62" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.saucedemo.swaglabs.testCases.RedirectLink -->
-      <class name="com.saucedemo.swaglabs.testCases.FileUpload">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.FileUpload@120d6fe6]" started-at="2021-09-21T17:29:58Z" name="beforeClass" finished-at="2021-09-21T17:29:59Z" duration-ms="1368" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.saucedemo.swaglabs.testCases.FileUpload@120d6fe6]" started-at="2021-09-21T17:29:59Z" name="beforeMethod" finished-at="2021-09-21T17:30:08Z" duration-ms="8986" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="fileUpload()[pri:0, instance:com.saucedemo.swaglabs.testCases.FileUpload@120d6fe6]" started-at="2021-09-21T17:30:08Z" name="fileUpload" finished-at="2021-09-21T17:30:47Z" duration-ms="39085" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- fileUpload -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.FileUpload@120d6fe6]" started-at="2021-09-21T17:30:47Z" name="afterClass" finished-at="2021-09-21T17:30:48Z" duration-ms="1162" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.saucedemo.swaglabs.testCases.FileUpload@120d6fe6]" started-at="2021-09-21T17:30:47Z" name="afterTest" finished-at="2021-09-21T17:30:47Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- com.saucedemo.swaglabs.testCases.FileUpload -->
       <class name="com.saucedemo.swaglabs.testCases.ContextMenu">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.ContextMenu@11e21d0e]" started-at="2021-09-21T17:24:11Z" name="beforeClass" finished-at="2021-09-21T17:24:12Z" duration-ms="1358" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.ContextMenu@f0f2775]" started-at="2022-04-15T06:56:51Z" name="beforeClass" finished-at="2022-04-15T06:56:52Z" duration-ms="623" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.saucedemo.swaglabs.testCases.ContextMenu@11e21d0e]" started-at="2021-09-21T17:24:12Z" name="beforeMethod" finished-at="2021-09-21T17:24:23Z" duration-ms="10336" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.saucedemo.swaglabs.testCases.ContextMenu@f0f2775]" started-at="2022-04-15T06:56:52Z" name="beforeMethod" finished-at="2022-04-15T06:56:58Z" duration-ms="6181" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="contextMenu()[pri:0, instance:com.saucedemo.swaglabs.testCases.ContextMenu@11e21d0e]" started-at="2021-09-21T17:24:23Z" name="contextMenu" finished-at="2021-09-21T17:24:34Z" duration-ms="11382" status="PASS">
+        <test-method signature="contextMenu()[pri:0, instance:com.saucedemo.swaglabs.testCases.ContextMenu@f0f2775]" started-at="2022-04-15T06:56:58Z" name="contextMenu" finished-at="2022-04-15T06:57:09Z" duration-ms="10819" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contextMenu -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.ContextMenu@11e21d0e]" started-at="2021-09-21T17:24:34Z" name="afterClass" finished-at="2021-09-21T17:24:34Z" duration-ms="362" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.ContextMenu@f0f2775]" started-at="2022-04-15T06:57:09Z" name="afterClass" finished-at="2022-04-15T06:57:09Z" duration-ms="46" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.saucedemo.swaglabs.testCases.ContextMenu@11e21d0e]" started-at="2021-09-21T17:24:34Z" name="afterTest" finished-at="2021-09-21T17:24:34Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.saucedemo.swaglabs.testCases.ContextMenu@f0f2775]" started-at="2022-04-15T06:57:09Z" name="afterTest" finished-at="2022-04-15T06:57:09Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- com.saucedemo.swaglabs.testCases.ContextMenu -->
-      <class name="com.saucedemo.swaglabs.testCases.NestedFrames">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.NestedFrames@6a396c1e]" started-at="2021-09-21T17:36:29Z" name="beforeClass" finished-at="2021-09-21T17:36:30Z" duration-ms="1269" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.saucedemo.swaglabs.testCases.NestedFrames@6a396c1e]" started-at="2021-09-21T17:36:30Z" name="beforeMethod" finished-at="2021-09-21T17:36:40Z" duration-ms="9803" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="nestedFrames()[pri:0, instance:com.saucedemo.swaglabs.testCases.NestedFrames@6a396c1e]" started-at="2021-09-21T17:36:40Z" name="nestedFrames" finished-at="2021-09-21T17:37:00Z" duration-ms="19545" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- nestedFrames -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.saucedemo.swaglabs.testCases.NestedFrames@6a396c1e]" started-at="2021-09-21T17:37:00Z" name="afterTest" finished-at="2021-09-21T17:37:00Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.NestedFrames@6a396c1e]" started-at="2021-09-21T17:37:00Z" name="afterClass" finished-at="2021-09-21T17:37:00Z" duration-ms="339" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- com.saucedemo.swaglabs.testCases.NestedFrames -->
-      <class name="com.saucedemo.swaglabs.testCases.FileDownload">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.FileDownload@4ba2ca36]" started-at="2021-09-21T17:30:48Z" name="beforeClass" finished-at="2021-09-21T17:30:50Z" duration-ms="1823" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.saucedemo.swaglabs.testCases.FileDownload@4ba2ca36]" started-at="2021-09-21T17:30:50Z" name="beforeMethod" finished-at="2021-09-21T17:31:01Z" duration-ms="10742" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="fileDownload()[pri:0, instance:com.saucedemo.swaglabs.testCases.FileDownload@4ba2ca36]" started-at="2021-09-21T17:31:01Z" name="fileDownload" finished-at="2021-09-21T17:31:15Z" duration-ms="14275" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- fileDownload -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.saucedemo.swaglabs.testCases.FileDownload@4ba2ca36]" started-at="2021-09-21T17:31:15Z" name="afterTest" finished-at="2021-09-21T17:31:15Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.FileDownload@4ba2ca36]" started-at="2021-09-21T17:31:15Z" name="afterClass" finished-at="2021-09-21T17:31:15Z" duration-ms="332" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- com.saucedemo.swaglabs.testCases.FileDownload -->
       <class name="com.saucedemo.swaglabs.testCases.JavaScriptAlert">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.JavaScriptAlert@5606c0b]" started-at="2021-09-21T17:34:45Z" name="beforeClass" finished-at="2021-09-21T17:34:47Z" duration-ms="1890" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.JavaScriptAlert@35fc6dc4]" started-at="2022-04-15T06:58:39Z" name="beforeClass" finished-at="2022-04-15T06:58:40Z" duration-ms="638" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.saucedemo.swaglabs.testCases.JavaScriptAlert@5606c0b]" started-at="2021-09-21T17:34:47Z" name="beforeMethod" finished-at="2021-09-21T17:34:55Z" duration-ms="8004" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.saucedemo.swaglabs.testCases.JavaScriptAlert@35fc6dc4]" started-at="2022-04-15T06:58:40Z" name="beforeMethod" finished-at="2022-04-15T06:58:46Z" duration-ms="6615" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="javaScriptAlert()[pri:0, instance:com.saucedemo.swaglabs.testCases.JavaScriptAlert@5606c0b]" started-at="2021-09-21T17:34:55Z" name="javaScriptAlert" finished-at="2021-09-21T17:35:24Z" duration-ms="28619" status="PASS">
+        <test-method signature="javaScriptAlert()[pri:0, instance:com.saucedemo.swaglabs.testCases.JavaScriptAlert@35fc6dc4]" started-at="2022-04-15T06:58:46Z" name="javaScriptAlert" finished-at="2022-04-15T06:59:14Z" duration-ms="27947" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- javaScriptAlert -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.saucedemo.swaglabs.testCases.JavaScriptAlert@5606c0b]" started-at="2021-09-21T17:35:24Z" name="afterTest" finished-at="2021-09-21T17:35:24Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.saucedemo.swaglabs.testCases.JavaScriptAlert@35fc6dc4]" started-at="2022-04-15T06:59:14Z" name="afterTest" finished-at="2022-04-15T06:59:14Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.JavaScriptAlert@5606c0b]" started-at="2021-09-21T17:35:24Z" name="afterClass" finished-at="2021-09-21T17:35:24Z" duration-ms="282" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.JavaScriptAlert@35fc6dc4]" started-at="2022-04-15T06:59:14Z" name="afterClass" finished-at="2022-04-15T06:59:14Z" duration-ms="46" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.saucedemo.swaglabs.testCases.JavaScriptAlert -->
-      <class name="com.saucedemo.swaglabs.testCases.NotificationMessage">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.NotificationMessage@6c3f5566]" started-at="2021-09-21T17:37:00Z" name="beforeClass" finished-at="2021-09-21T17:37:01Z" duration-ms="1262" status="PASS">
+      <class name="com.saucedemo.swaglabs.testCases.NestedFrames">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.NestedFrames@731f8236]" started-at="2022-04-15T07:00:05Z" name="beforeClass" finished-at="2022-04-15T07:00:05Z" duration-ms="653" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.saucedemo.swaglabs.testCases.NotificationMessage@6c3f5566]" started-at="2021-09-21T17:37:01Z" name="beforeMethod" finished-at="2021-09-21T17:37:09Z" duration-ms="8170" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.saucedemo.swaglabs.testCases.NestedFrames@731f8236]" started-at="2022-04-15T07:00:05Z" name="beforeMethod" finished-at="2022-04-15T07:00:11Z" duration-ms="6057" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="notificationMessage()[pri:0, instance:com.saucedemo.swaglabs.testCases.NotificationMessage@6c3f5566]" started-at="2021-09-21T17:37:09Z" name="notificationMessage" finished-at="2021-09-21T17:37:30Z" duration-ms="20573" status="PASS">
+        <test-method signature="nestedFrames()[pri:0, instance:com.saucedemo.swaglabs.testCases.NestedFrames@731f8236]" started-at="2022-04-15T07:00:11Z" name="nestedFrames" finished-at="2022-04-15T07:00:30Z" duration-ms="18724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nestedFrames -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.NestedFrames@731f8236]" started-at="2022-04-15T07:00:30Z" name="afterClass" finished-at="2022-04-15T07:00:30Z" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.saucedemo.swaglabs.testCases.NestedFrames@731f8236]" started-at="2022-04-15T07:00:30Z" name="afterTest" finished-at="2022-04-15T07:00:30Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.saucedemo.swaglabs.testCases.NestedFrames -->
+      <class name="com.saucedemo.swaglabs.testCases.NotificationMessage">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.NotificationMessage@255b53dc]" started-at="2022-04-15T07:00:30Z" name="beforeClass" finished-at="2022-04-15T07:00:31Z" duration-ms="668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.saucedemo.swaglabs.testCases.NotificationMessage@255b53dc]" started-at="2022-04-15T07:00:31Z" name="beforeMethod" finished-at="2022-04-15T07:00:36Z" duration-ms="4864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="notificationMessage()[pri:0, instance:com.saucedemo.swaglabs.testCases.NotificationMessage@255b53dc]" started-at="2022-04-15T07:00:36Z" name="notificationMessage" finished-at="2022-04-15T07:00:54Z" duration-ms="18011" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- notificationMessage -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.NotificationMessage@6c3f5566]" started-at="2021-09-21T17:37:30Z" name="afterClass" finished-at="2021-09-21T17:37:31Z" duration-ms="589" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.saucedemo.swaglabs.testCases.NotificationMessage@6c3f5566]" started-at="2021-09-21T17:37:30Z" name="afterTest" finished-at="2021-09-21T17:37:30Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.saucedemo.swaglabs.testCases.NotificationMessage@255b53dc]" started-at="2022-04-15T07:00:54Z" name="afterTest" finished-at="2022-04-15T07:00:54Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.NotificationMessage@255b53dc]" started-at="2022-04-15T07:00:54Z" name="afterClass" finished-at="2022-04-15T07:00:54Z" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
       </class> <!-- com.saucedemo.swaglabs.testCases.NotificationMessage -->
       <class name="com.saucedemo.swaglabs.testCases.BrokenImage">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.BrokenImage@b59d31]" started-at="2021-09-21T17:23:18Z" name="beforeClass" finished-at="2021-09-21T17:23:20Z" duration-ms="1440" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.BrokenImage@3f200884]" started-at="2022-04-15T06:54:42Z" name="beforeClass" finished-at="2022-04-15T06:54:43Z" duration-ms="684" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.saucedemo.swaglabs.testCases.BrokenImage@b59d31]" started-at="2021-09-21T17:23:20Z" name="beforeMethod" finished-at="2021-09-21T17:23:28Z" duration-ms="8453" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.saucedemo.swaglabs.testCases.BrokenImage@3f200884]" started-at="2022-04-15T06:54:43Z" name="beforeMethod" finished-at="2022-04-15T06:54:48Z" duration-ms="4817" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="brokenImage()[pri:0, instance:com.saucedemo.swaglabs.testCases.BrokenImage@b59d31]" started-at="2021-09-21T17:23:28Z" name="brokenImage" finished-at="2021-09-21T17:23:44Z" duration-ms="16256" status="PASS">
+        <test-method signature="brokenImage()[pri:0, instance:com.saucedemo.swaglabs.testCases.BrokenImage@3f200884]" started-at="2022-04-15T06:54:48Z" name="brokenImage" finished-at="2022-04-15T06:55:04Z" duration-ms="16323" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- brokenImage -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.BrokenImage@b59d31]" started-at="2021-09-21T17:23:44Z" name="afterClass" finished-at="2021-09-21T17:23:45Z" duration-ms="376" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.saucedemo.swaglabs.testCases.BrokenImage@b59d31]" started-at="2021-09-21T17:23:44Z" name="afterTest" finished-at="2021-09-21T17:23:44Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.saucedemo.swaglabs.testCases.BrokenImage@3f200884]" started-at="2022-04-15T06:55:04Z" name="afterTest" finished-at="2022-04-15T06:55:04Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.BrokenImage@3f200884]" started-at="2022-04-15T06:55:04Z" name="afterClass" finished-at="2022-04-15T06:55:04Z" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
       </class> <!-- com.saucedemo.swaglabs.testCases.BrokenImage -->
       <class name="com.saucedemo.swaglabs.testCases.DigestAuthentication">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.DigestAuthentication@1dd02175]" started-at="2021-09-21T17:24:34Z" name="beforeClass" finished-at="2021-09-21T17:24:36Z" duration-ms="1338" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.DigestAuthentication@5a4aa2f2]" started-at="2022-04-15T06:57:32Z" name="beforeClass" finished-at="2022-04-15T06:57:33Z" duration-ms="653" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.saucedemo.swaglabs.testCases.DigestAuthentication@1dd02175]" started-at="2021-09-21T17:24:36Z" name="beforeMethod" finished-at="2021-09-21T17:24:45Z" duration-ms="8761" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.saucedemo.swaglabs.testCases.DigestAuthentication@5a4aa2f2]" started-at="2022-04-15T06:57:33Z" name="beforeMethod" finished-at="2022-04-15T06:57:38Z" duration-ms="5143" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="digestAuthentication()[pri:0, instance:com.saucedemo.swaglabs.testCases.DigestAuthentication@1dd02175]" started-at="2021-09-21T17:24:45Z" name="digestAuthentication" finished-at="2021-09-21T17:24:54Z" duration-ms="9347" status="PASS">
+        <test-method signature="digestAuthentication()[pri:0, instance:com.saucedemo.swaglabs.testCases.DigestAuthentication@5a4aa2f2]" started-at="2022-04-15T06:57:38Z" name="digestAuthentication" finished-at="2022-04-15T06:57:48Z" duration-ms="9503" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- digestAuthentication -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.saucedemo.swaglabs.testCases.DigestAuthentication@1dd02175]" started-at="2021-09-21T17:24:54Z" name="afterTest" finished-at="2021-09-21T17:24:54Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.DigestAuthentication@1dd02175]" started-at="2021-09-21T17:24:54Z" name="afterClass" finished-at="2021-09-21T17:24:55Z" duration-ms="847" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.DigestAuthentication@5a4aa2f2]" started-at="2022-04-15T06:57:48Z" name="afterClass" finished-at="2022-04-15T06:57:48Z" duration-ms="60" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.saucedemo.swaglabs.testCases.DigestAuthentication@5a4aa2f2]" started-at="2022-04-15T06:57:48Z" name="afterTest" finished-at="2022-04-15T06:57:48Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
       </class> <!-- com.saucedemo.swaglabs.testCases.DigestAuthentication -->
       <class name="com.saucedemo.swaglabs.testCases.ScreenshotOfWebpage">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.ScreenshotOfWebpage@314c508a]" started-at="2021-09-21T17:38:42Z" name="beforeClass" finished-at="2021-09-21T17:38:44Z" duration-ms="1702" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.ScreenshotOfWebpage@6b53e23f]" started-at="2022-04-15T07:01:53Z" name="beforeClass" finished-at="2022-04-15T07:01:54Z" duration-ms="638" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.saucedemo.swaglabs.testCases.ScreenshotOfWebpage@314c508a]" started-at="2021-09-21T17:38:44Z" name="beforeMethod" finished-at="2021-09-21T17:38:55Z" duration-ms="11125" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.saucedemo.swaglabs.testCases.ScreenshotOfWebpage@6b53e23f]" started-at="2022-04-15T07:01:54Z" name="beforeMethod" finished-at="2022-04-15T07:02:00Z" duration-ms="5623" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="screenshotOfWebpage()[pri:0, instance:com.saucedemo.swaglabs.testCases.ScreenshotOfWebpage@314c508a]" started-at="2021-09-21T17:38:55Z" name="screenshotOfWebpage" finished-at="2021-09-21T17:38:56Z" duration-ms="794" status="PASS">
+        <test-method signature="screenshotOfWebpage()[pri:0, instance:com.saucedemo.swaglabs.testCases.ScreenshotOfWebpage@6b53e23f]" started-at="2022-04-15T07:02:00Z" name="screenshotOfWebpage" finished-at="2022-04-15T07:02:00Z" duration-ms="759" status="FAIL">
+          <exception class="java.io.IOException">
+            <message>
+              <![CDATA[Destination 'G:\Talha\SQA\Github\sqabdautomation\Java\Talha\swaglabs\Images' directory cannot be created]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.IOException: Destination 'G:\Talha\SQA\Github\sqabdautomation\Java\Talha\swaglabs\Images' directory cannot be created
+at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1085)
+at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1038)
+at com.saucedemo.swaglabs.testCases.ScreenshotOfWebpage.screenshotOfWebpage(ScreenshotOfWebpage.java:20)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.IOException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotOfWebpage -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.saucedemo.swaglabs.testCases.ScreenshotOfWebpage@314c508a]" started-at="2021-09-21T17:38:56Z" name="afterTest" finished-at="2021-09-21T17:38:56Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.ScreenshotOfWebpage@314c508a]" started-at="2021-09-21T17:38:56Z" name="afterClass" finished-at="2021-09-21T17:38:57Z" duration-ms="513" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.ScreenshotOfWebpage@6b53e23f]" started-at="2022-04-15T07:02:00Z" name="afterClass" finished-at="2022-04-15T07:02:00Z" duration-ms="47" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.saucedemo.swaglabs.testCases.ScreenshotOfWebpage@6b53e23f]" started-at="2022-04-15T07:02:00Z" name="afterTest" finished-at="2022-04-15T07:02:00Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
       </class> <!-- com.saucedemo.swaglabs.testCases.ScreenshotOfWebpage -->
       <class name="com.saucedemo.swaglabs.testCases.ScreenshotOfAnElement">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.ScreenshotOfAnElement@10b48321]" started-at="2021-09-21T17:38:57Z" name="beforeClass" finished-at="2021-09-21T17:38:58Z" duration-ms="1610" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.ScreenshotOfAnElement@64d2d351]" started-at="2022-04-15T07:02:00Z" name="beforeClass" finished-at="2022-04-15T07:02:01Z" duration-ms="653" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.saucedemo.swaglabs.testCases.ScreenshotOfAnElement@10b48321]" started-at="2021-09-21T17:38:58Z" name="beforeMethod" finished-at="2021-09-21T17:39:11Z" duration-ms="12430" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.saucedemo.swaglabs.testCases.ScreenshotOfAnElement@64d2d351]" started-at="2022-04-15T07:02:01Z" name="beforeMethod" finished-at="2022-04-15T07:02:06Z" duration-ms="5189" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="screenshotOfAnElement()[pri:0, instance:com.saucedemo.swaglabs.testCases.ScreenshotOfAnElement@10b48321]" started-at="2021-09-21T17:39:11Z" name="screenshotOfAnElement" finished-at="2021-09-21T17:39:12Z" duration-ms="1370" status="PASS">
+        <test-method signature="screenshotOfAnElement()[pri:0, instance:com.saucedemo.swaglabs.testCases.ScreenshotOfAnElement@64d2d351]" started-at="2022-04-15T07:02:06Z" name="screenshotOfAnElement" finished-at="2022-04-15T07:02:06Z" duration-ms="182" status="FAIL">
+          <exception class="java.io.IOException">
+            <message>
+              <![CDATA[Destination 'G:\Talha\SQA\Github\sqabdautomation\Java\Talha\swaglabs\Images' directory cannot be created]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.IOException: Destination 'G:\Talha\SQA\Github\sqabdautomation\Java\Talha\swaglabs\Images' directory cannot be created
+at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1085)
+at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1038)
+at com.saucedemo.swaglabs.testCases.ScreenshotOfAnElement.screenshotOfAnElement(ScreenshotOfAnElement.java:37)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.IOException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotOfAnElement -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.saucedemo.swaglabs.testCases.ScreenshotOfAnElement@10b48321]" started-at="2021-09-21T17:39:12Z" name="afterTest" finished-at="2021-09-21T17:39:12Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.ScreenshotOfAnElement@10b48321]" started-at="2021-09-21T17:39:12Z" name="afterClass" finished-at="2021-09-21T17:39:13Z" duration-ms="478" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.ScreenshotOfAnElement@64d2d351]" started-at="2022-04-15T07:02:06Z" name="afterClass" finished-at="2022-04-15T07:02:06Z" duration-ms="51" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.saucedemo.swaglabs.testCases.ScreenshotOfAnElement@64d2d351]" started-at="2022-04-15T07:02:06Z" name="afterTest" finished-at="2022-04-15T07:02:06Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
       </class> <!-- com.saucedemo.swaglabs.testCases.ScreenshotOfAnElement -->
       <class name="com.saucedemo.swaglabs.testCases.BasicAuth">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.BasicAuth@4df828d7]" started-at="2021-09-21T17:22:56Z" name="beforeClass" finished-at="2021-09-21T17:22:57Z" duration-ms="1358" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.BasicAuth@69b794e2]" started-at="2022-04-15T06:53:39Z" name="beforeClass" finished-at="2022-04-15T06:53:40Z" duration-ms="606" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.saucedemo.swaglabs.testCases.BasicAuth@4df828d7]" started-at="2021-09-21T17:22:57Z" name="beforeMethod" finished-at="2021-09-21T17:23:05Z" duration-ms="8005" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.saucedemo.swaglabs.testCases.BasicAuth@69b794e2]" started-at="2022-04-15T06:53:40Z" name="beforeMethod" finished-at="2022-04-15T06:53:44Z" duration-ms="4522" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="basicAuth()[pri:0, instance:com.saucedemo.swaglabs.testCases.BasicAuth@4df828d7]" started-at="2021-09-21T17:23:05Z" name="basicAuth" finished-at="2021-09-21T17:23:18Z" duration-ms="12540" status="PASS">
+        <test-method signature="basicAuth()[pri:0, instance:com.saucedemo.swaglabs.testCases.BasicAuth@69b794e2]" started-at="2022-04-15T06:53:44Z" name="basicAuth" finished-at="2022-04-15T06:53:56Z" duration-ms="11593" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basicAuth -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.saucedemo.swaglabs.testCases.BasicAuth@4df828d7]" started-at="2021-09-21T17:23:18Z" name="afterTest" finished-at="2021-09-21T17:23:18Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.BasicAuth@4df828d7]" started-at="2021-09-21T17:23:18Z" name="afterClass" finished-at="2021-09-21T17:23:18Z" duration-ms="399" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.BasicAuth@69b794e2]" started-at="2022-04-15T06:53:56Z" name="afterClass" finished-at="2022-04-15T06:53:56Z" duration-ms="78" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.saucedemo.swaglabs.testCases.BasicAuth@69b794e2]" started-at="2022-04-15T06:53:56Z" name="afterTest" finished-at="2022-04-15T06:53:56Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
       </class> <!-- com.saucedemo.swaglabs.testCases.BasicAuth -->
-      <class name="com.saucedemo.swaglabs.testCases.DisappearingElements">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.DisappearingElements@31206beb]" started-at="2021-09-21T17:24:55Z" name="beforeClass" finished-at="2021-09-21T17:24:57Z" duration-ms="1822" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.saucedemo.swaglabs.testCases.DisappearingElements@31206beb]" started-at="2021-09-21T17:24:57Z" name="beforeMethod" finished-at="2021-09-21T17:25:08Z" duration-ms="11437" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="disappearingElements()[pri:0, instance:com.saucedemo.swaglabs.testCases.DisappearingElements@31206beb]" started-at="2021-09-21T17:25:08Z" name="disappearingElements" finished-at="2021-09-21T17:25:36Z" duration-ms="28078" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- disappearingElements -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.saucedemo.swaglabs.testCases.DisappearingElements@31206beb]" started-at="2021-09-21T17:25:36Z" name="afterTest" finished-at="2021-09-21T17:25:36Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.DisappearingElements@31206beb]" started-at="2021-09-21T17:25:36Z" name="afterClass" finished-at="2021-09-21T17:25:36Z" duration-ms="346" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- com.saucedemo.swaglabs.testCases.DisappearingElements -->
       <class name="com.saucedemo.swaglabs.testCases.DropDown">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.DropDown@3ffcd140]" started-at="2021-09-21T17:28:19Z" name="beforeClass" finished-at="2021-09-21T17:28:20Z" duration-ms="1374" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.DropDown@345965f2]" started-at="2022-04-15T06:52:49Z" name="beforeClass" finished-at="2022-04-15T06:52:50Z" duration-ms="608" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.saucedemo.swaglabs.testCases.DropDown@3ffcd140]" started-at="2021-09-21T17:28:20Z" name="beforeMethod" finished-at="2021-09-21T17:28:29Z" duration-ms="9128" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.saucedemo.swaglabs.testCases.DropDown@345965f2]" started-at="2022-04-15T06:52:50Z" name="beforeMethod" finished-at="2022-04-15T06:52:55Z" duration-ms="4692" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="dropDown()[pri:0, instance:com.saucedemo.swaglabs.testCases.DropDown@3ffcd140]" started-at="2021-09-21T17:28:29Z" name="dropDown" finished-at="2021-09-21T17:28:56Z" duration-ms="26778" status="PASS">
+        <test-method signature="dropDown()[pri:0, instance:com.saucedemo.swaglabs.testCases.DropDown@345965f2]" started-at="2022-04-15T06:52:55Z" name="dropDown" finished-at="2022-04-15T06:53:20Z" duration-ms="25715" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dropDown -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.DropDown@3ffcd140]" started-at="2021-09-21T17:28:56Z" name="afterClass" finished-at="2021-09-21T17:28:57Z" duration-ms="309" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.DropDown@345965f2]" started-at="2022-04-15T06:53:20Z" name="afterClass" finished-at="2022-04-15T06:53:21Z" duration-ms="62" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.saucedemo.swaglabs.testCases.DropDown@3ffcd140]" started-at="2021-09-21T17:28:56Z" name="afterTest" finished-at="2021-09-21T17:28:56Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.saucedemo.swaglabs.testCases.DropDown@345965f2]" started-at="2022-04-15T06:53:20Z" name="afterTest" finished-at="2022-04-15T06:53:20Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- com.saucedemo.swaglabs.testCases.DropDown -->
-      <class name="com.saucedemo.swaglabs.testCases.Checkboxes">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.Checkboxes@62fdb4a6]" started-at="2021-09-21T17:23:45Z" name="beforeClass" finished-at="2021-09-21T17:23:46Z" duration-ms="1348" status="PASS">
+      <class name="com.saucedemo.swaglabs.testCases.DisappearingElements">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.DisappearingElements@6591f517]" started-at="2022-04-15T06:58:05Z" name="beforeClass" finished-at="2022-04-15T06:58:05Z" duration-ms="669" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.saucedemo.swaglabs.testCases.Checkboxes@62fdb4a6]" started-at="2021-09-21T17:23:46Z" name="beforeMethod" finished-at="2021-09-21T17:24:00Z" duration-ms="14077" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.saucedemo.swaglabs.testCases.DisappearingElements@6591f517]" started-at="2022-04-15T06:58:05Z" name="beforeMethod" finished-at="2022-04-15T06:58:11Z" duration-ms="5824" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="checkboxes()[pri:0, instance:com.saucedemo.swaglabs.testCases.Checkboxes@62fdb4a6]" started-at="2021-09-21T17:24:00Z" name="checkboxes" finished-at="2021-09-21T17:24:11Z" duration-ms="10433" status="PASS">
+        <test-method signature="disappearingElements()[pri:0, instance:com.saucedemo.swaglabs.testCases.DisappearingElements@6591f517]" started-at="2022-04-15T06:58:11Z" name="disappearingElements" finished-at="2022-04-15T06:58:39Z" duration-ms="27745" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkboxes -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.saucedemo.swaglabs.testCases.Checkboxes@62fdb4a6]" started-at="2021-09-21T17:24:11Z" name="afterTest" finished-at="2021-09-21T17:24:11Z" duration-ms="0" status="PASS">
+        </test-method> <!-- disappearingElements -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.saucedemo.swaglabs.testCases.DisappearingElements@6591f517]" started-at="2022-04-15T06:58:39Z" name="afterTest" finished-at="2022-04-15T06:58:39Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.Checkboxes@62fdb4a6]" started-at="2021-09-21T17:24:11Z" name="afterClass" finished-at="2021-09-21T17:24:11Z" duration-ms="326" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.DisappearingElements@6591f517]" started-at="2022-04-15T06:58:39Z" name="afterClass" finished-at="2022-04-15T06:58:39Z" duration-ms="78" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- com.saucedemo.swaglabs.testCases.Checkboxes -->
-      <class name="com.saucedemo.swaglabs.testCases.HorizontalSlider">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.HorizontalSlider@6a79c292]" started-at="2021-09-21T17:32:18Z" name="beforeClass" finished-at="2021-09-21T17:32:19Z" duration-ms="1298" status="PASS">
+      </class> <!-- com.saucedemo.swaglabs.testCases.DisappearingElements -->
+      <class name="com.saucedemo.swaglabs.testCases.Checkboxes">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.Checkboxes@4d339552]" started-at="2022-04-15T06:55:41Z" name="beforeClass" finished-at="2022-04-15T06:55:42Z" duration-ms="637" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.saucedemo.swaglabs.testCases.HorizontalSlider@6a79c292]" started-at="2021-09-21T17:32:19Z" name="beforeMethod" finished-at="2021-09-21T17:32:30Z" duration-ms="10454" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.saucedemo.swaglabs.testCases.Checkboxes@4d339552]" started-at="2022-04-15T06:55:42Z" name="beforeMethod" finished-at="2022-04-15T06:55:47Z" duration-ms="4894" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="horizontalSlider()[pri:0, instance:com.saucedemo.swaglabs.testCases.HorizontalSlider@6a79c292]" started-at="2021-09-21T17:32:30Z" name="horizontalSlider" finished-at="2021-09-21T17:32:38Z" duration-ms="8382" status="PASS">
+        <test-method signature="checkboxes()[pri:0, instance:com.saucedemo.swaglabs.testCases.Checkboxes@4d339552]" started-at="2022-04-15T06:55:47Z" name="checkboxes" finished-at="2022-04-15T06:55:56Z" duration-ms="9548" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- horizontalSlider -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.saucedemo.swaglabs.testCases.HorizontalSlider@6a79c292]" started-at="2021-09-21T17:32:38Z" name="afterTest" finished-at="2021-09-21T17:32:38Z" duration-ms="2" status="PASS">
+        </test-method> <!-- checkboxes -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.Checkboxes@4d339552]" started-at="2022-04-15T06:55:56Z" name="afterClass" finished-at="2022-04-15T06:55:56Z" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.saucedemo.swaglabs.testCases.Checkboxes@4d339552]" started-at="2022-04-15T06:55:56Z" name="afterTest" finished-at="2022-04-15T06:55:56Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.HorizontalSlider@6a79c292]" started-at="2021-09-21T17:32:38Z" name="afterClass" finished-at="2021-09-21T17:32:38Z" duration-ms="343" status="PASS">
+      </class> <!-- com.saucedemo.swaglabs.testCases.Checkboxes -->
+      <class name="com.saucedemo.swaglabs.testCases.HorizontalSlider">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.HorizontalSlider@4450d156]" started-at="2022-04-15T06:55:27Z" name="beforeClass" finished-at="2022-04-15T06:55:27Z" duration-ms="669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.saucedemo.swaglabs.testCases.HorizontalSlider@4450d156]" started-at="2022-04-15T06:55:27Z" name="beforeMethod" finished-at="2022-04-15T06:55:33Z" duration-ms="5840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="horizontalSlider()[pri:0, instance:com.saucedemo.swaglabs.testCases.HorizontalSlider@4450d156]" started-at="2022-04-15T06:55:33Z" name="horizontalSlider" finished-at="2022-04-15T06:55:41Z" duration-ms="7886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- horizontalSlider -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.saucedemo.swaglabs.testCases.HorizontalSlider@4450d156]" started-at="2022-04-15T06:55:41Z" name="afterTest" finished-at="2022-04-15T06:55:41Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.HorizontalSlider@4450d156]" started-at="2022-04-15T06:55:41Z" name="afterClass" finished-at="2022-04-15T06:55:41Z" duration-ms="66" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.saucedemo.swaglabs.testCases.HorizontalSlider -->
-      <class name="com.saucedemo.swaglabs.testCases.FullPageScreenShot">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.FullPageScreenShot@6b67034]" started-at="2021-09-21T17:39:13Z" name="beforeClass" finished-at="2021-09-21T17:39:14Z" duration-ms="1564" status="PASS">
+      <class name="com.saucedemo.swaglabs.testCases.DynamicControl">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.DynamicControl@4d49af10]" started-at="2022-04-15T06:55:04Z" name="beforeClass" finished-at="2022-04-15T06:55:05Z" duration-ms="684" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.saucedemo.swaglabs.testCases.FullPageScreenShot@6b67034]" started-at="2021-09-21T17:39:14Z" name="beforeMethod" finished-at="2021-09-21T17:39:28Z" duration-ms="13942" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.saucedemo.swaglabs.testCases.DynamicControl@4d49af10]" started-at="2022-04-15T06:55:05Z" name="beforeMethod" finished-at="2022-04-15T06:55:11Z" duration-ms="5716" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="fullPageScreenShot()[pri:0, instance:com.saucedemo.swaglabs.testCases.FullPageScreenShot@6b67034]" started-at="2021-09-21T17:39:28Z" name="fullPageScreenShot" finished-at="2021-09-21T17:39:33Z" duration-ms="5318" status="PASS">
+        <test-method signature="dynamicControl()[pri:0, instance:com.saucedemo.swaglabs.testCases.DynamicControl@4d49af10]" started-at="2022-04-15T06:55:11Z" name="dynamicControl" finished-at="2022-04-15T06:55:27Z" duration-ms="15933" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fullPageScreenShot -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.saucedemo.swaglabs.testCases.FullPageScreenShot@6b67034]" started-at="2021-09-21T17:39:33Z" name="afterTest" finished-at="2021-09-21T17:39:33Z" duration-ms="1" status="PASS">
+        </test-method> <!-- dynamicControl -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.DynamicControl@4d49af10]" started-at="2022-04-15T06:55:27Z" name="afterClass" finished-at="2022-04-15T06:55:27Z" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.saucedemo.swaglabs.testCases.DynamicControl@4d49af10]" started-at="2022-04-15T06:55:27Z" name="afterTest" finished-at="2022-04-15T06:55:27Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.FullPageScreenShot@6b67034]" started-at="2021-09-21T17:39:33Z" name="afterClass" finished-at="2021-09-21T17:39:34Z" duration-ms="1018" status="PASS">
+      </class> <!-- com.saucedemo.swaglabs.testCases.DynamicControl -->
+      <class name="com.saucedemo.swaglabs.testCases.FullPageScreenShot">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.FullPageScreenShot@1b68b9a4]" started-at="2022-04-15T07:02:06Z" name="beforeClass" finished-at="2022-04-15T07:02:07Z" duration-ms="669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.saucedemo.swaglabs.testCases.FullPageScreenShot@1b68b9a4]" started-at="2022-04-15T07:02:07Z" name="beforeMethod" finished-at="2022-04-15T07:02:13Z" duration-ms="6197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="fullPageScreenShot()[pri:0, instance:com.saucedemo.swaglabs.testCases.FullPageScreenShot@1b68b9a4]" started-at="2022-04-15T07:02:13Z" name="fullPageScreenShot" finished-at="2022-04-15T07:02:18Z" duration-ms="4321" status="FAIL">
+          <exception class="javax.imageio.IIOException">
+            <message>
+              <![CDATA[Can't create an ImageOutputStream!]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[javax.imageio.IIOException: Can't create an ImageOutputStream!
+at java.desktop/javax.imageio.ImageIO.write(ImageIO.java:1553)
+at com.saucedemo.swaglabs.testCases.FullPageScreenShot.fullPageScreenShot(FullPageScreenShot.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- javax.imageio.IIOException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fullPageScreenShot -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.saucedemo.swaglabs.testCases.FullPageScreenShot@1b68b9a4]" started-at="2022-04-15T07:02:18Z" name="afterTest" finished-at="2022-04-15T07:02:18Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.FullPageScreenShot@1b68b9a4]" started-at="2022-04-15T07:02:18Z" name="afterClass" finished-at="2022-04-15T07:02:18Z" duration-ms="66" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.saucedemo.swaglabs.testCases.FullPageScreenShot -->
-      <class name="com.saucedemo.swaglabs.testCases.DynamicControl">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.DynamicControl@1176dcec]" started-at="2021-09-21T17:29:29Z" name="beforeClass" finished-at="2021-09-21T17:29:31Z" duration-ms="1789" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.saucedemo.swaglabs.testCases.DynamicControl@1176dcec]" started-at="2021-09-21T17:29:31Z" name="beforeMethod" finished-at="2021-09-21T17:29:40Z" duration-ms="8706" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="dynamicControl()[pri:0, instance:com.saucedemo.swaglabs.testCases.DynamicControl@1176dcec]" started-at="2021-09-21T17:29:40Z" name="dynamicControl" finished-at="2021-09-21T17:29:57Z" duration-ms="17499" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dynamicControl -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.saucedemo.swaglabs.testCases.DynamicControl@1176dcec]" started-at="2021-09-21T17:29:57Z" name="afterTest" finished-at="2021-09-21T17:29:57Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.DynamicControl@1176dcec]" started-at="2021-09-21T17:29:57Z" name="afterClass" finished-at="2021-09-21T17:29:58Z" duration-ms="280" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- com.saucedemo.swaglabs.testCases.DynamicControl -->
-      <class name="com.saucedemo.swaglabs.testCases.DragAndDrop">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.DragAndDrop@3e77a1ed]" started-at="2021-09-21T17:25:36Z" name="beforeClass" finished-at="2021-09-21T17:25:38Z" duration-ms="1855" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.saucedemo.swaglabs.testCases.DragAndDrop@3e77a1ed]" started-at="2021-09-21T17:25:38Z" name="beforeMethod" finished-at="2021-09-21T17:25:51Z" duration-ms="12366" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="dragAndDrop()[pri:0, instance:com.saucedemo.swaglabs.testCases.DragAndDrop@3e77a1ed]" started-at="2021-09-21T17:25:51Z" name="dragAndDrop" finished-at="2021-09-21T17:28:19Z" duration-ms="148003" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dragAndDrop -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.saucedemo.swaglabs.testCases.DragAndDrop@3e77a1ed]" started-at="2021-09-21T17:28:19Z" name="afterTest" finished-at="2021-09-21T17:28:19Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.DragAndDrop@3e77a1ed]" started-at="2021-09-21T17:28:19Z" name="afterClass" finished-at="2021-09-21T17:28:19Z" duration-ms="313" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- com.saucedemo.swaglabs.testCases.DragAndDrop -->
       <class name="com.saucedemo.swaglabs.testCases.InfiniteScroll">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.InfiniteScroll@25359ed8]" started-at="2021-09-21T17:33:39Z" name="beforeClass" finished-at="2021-09-21T17:33:41Z" duration-ms="1944" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.InfiniteScroll@351d0846]" started-at="2022-04-15T06:57:09Z" name="beforeClass" finished-at="2022-04-15T06:57:09Z" duration-ms="699" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.saucedemo.swaglabs.testCases.InfiniteScroll@25359ed8]" started-at="2021-09-21T17:33:41Z" name="beforeMethod" finished-at="2021-09-21T17:33:58Z" duration-ms="16389" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.saucedemo.swaglabs.testCases.InfiniteScroll@351d0846]" started-at="2022-04-15T06:57:09Z" name="beforeMethod" finished-at="2022-04-15T06:57:14Z" duration-ms="4863" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="infiniteScroll()[pri:0, instance:com.saucedemo.swaglabs.testCases.InfiniteScroll@25359ed8]" started-at="2021-09-21T17:33:58Z" name="infiniteScroll" finished-at="2021-09-21T17:34:22Z" duration-ms="24206" status="PASS">
+        <test-method signature="infiniteScroll()[pri:0, instance:com.saucedemo.swaglabs.testCases.InfiniteScroll@351d0846]" started-at="2022-04-15T06:57:14Z" name="infiniteScroll" finished-at="2022-04-15T06:57:32Z" duration-ms="18069" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:23306
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'DESKTOP-C6OQV70', ip: '192.168.0.193', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:23306
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'DESKTOP-C6OQV70', ip: '192.168.0.193', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.back(RemoteWebDriver.java:849)
+at com.saucedemo.swaglabs.testCases.InfiniteScroll.infiniteScroll(InfiniteScroll.java:42)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:23306
+at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
+at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
+at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
+at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+at okhttp3.RealCall.execute(RealCall.java:77)
+at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+... 30 more
+Caused by: java.net.ConnectException: Connection refused: no further information
+at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:539)
+at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594)
+at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+at java.base/java.net.Socket.connect(Socket.java:633)
+at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
+at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
+... 50 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- infiniteScroll -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.saucedemo.swaglabs.testCases.InfiniteScroll@25359ed8]" started-at="2021-09-21T17:34:22Z" name="afterTest" finished-at="2021-09-21T17:34:22Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.saucedemo.swaglabs.testCases.InfiniteScroll@351d0846]" started-at="2022-04-15T06:57:32Z" name="afterTest" finished-at="2022-04-15T06:57:32Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.InfiniteScroll@25359ed8]" started-at="2021-09-21T17:34:22Z" name="afterClass" finished-at="2021-09-21T17:34:22Z" duration-ms="622" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.InfiniteScroll@351d0846]" started-at="2022-04-15T06:57:32Z" name="afterClass" finished-at="2022-04-15T06:57:32Z" duration-ms="17" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:23306
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'DESKTOP-C6OQV70', ip: '192.168.0.193', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:23306
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'DESKTOP-C6OQV70', ip: '192.168.0.193', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
+at com.saucedemo.swaglabs.testCases.BaseClass.afterClass(BaseClass.java:55)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:214)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:23306
+at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
+at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
+at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
+at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+at okhttp3.RealCall.execute(RealCall.java:77)
+at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+... 31 more
+Caused by: java.net.ConnectException: Connection refused: no further information
+at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:539)
+at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594)
+at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+at java.base/java.net.Socket.connect(Socket.java:633)
+at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
+at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
+... 51 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.saucedemo.swaglabs.testCases.InfiniteScroll -->
       <class name="com.saucedemo.swaglabs.testCases.AddRemoveElements">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.AddRemoveElements@5e25a92e]" started-at="2021-09-21T17:22:20Z" name="beforeClass" finished-at="2021-09-21T17:22:22Z" duration-ms="2546" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.AddRemoveElements@61d47554]" started-at="2022-04-15T06:52:14Z" name="beforeClass" finished-at="2022-04-15T06:52:16Z" duration-ms="2081" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.saucedemo.swaglabs.testCases.AddRemoveElements@5e25a92e]" started-at="2021-09-21T17:22:22Z" name="beforeMethod" finished-at="2021-09-21T17:22:34Z" duration-ms="11809" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.saucedemo.swaglabs.testCases.AddRemoveElements@61d47554]" started-at="2022-04-15T06:52:16Z" name="beforeMethod" finished-at="2022-04-15T06:52:28Z" duration-ms="12018" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="addRemoveElements()[pri:0, instance:com.saucedemo.swaglabs.testCases.AddRemoveElements@5e25a92e]" started-at="2021-09-21T17:22:34Z" name="addRemoveElements" finished-at="2021-09-21T17:22:56Z" duration-ms="21548" status="PASS">
+        <test-method signature="addRemoveElements()[pri:0, instance:com.saucedemo.swaglabs.testCases.AddRemoveElements@61d47554]" started-at="2022-04-15T06:52:28Z" name="addRemoveElements" finished-at="2022-04-15T06:52:49Z" duration-ms="20925" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addRemoveElements -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.saucedemo.swaglabs.testCases.AddRemoveElements@5e25a92e]" started-at="2021-09-21T17:22:56Z" name="afterTest" finished-at="2021-09-21T17:22:56Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.saucedemo.swaglabs.testCases.AddRemoveElements@61d47554]" started-at="2022-04-15T06:52:49Z" name="afterTest" finished-at="2022-04-15T06:52:49Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.AddRemoveElements@5e25a92e]" started-at="2021-09-21T17:22:56Z" name="afterClass" finished-at="2021-09-21T17:22:56Z" duration-ms="380" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.AddRemoveElements@61d47554]" started-at="2022-04-15T06:52:49Z" name="afterClass" finished-at="2022-04-15T06:52:49Z" duration-ms="46" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.saucedemo.swaglabs.testCases.AddRemoveElements -->
       <class name="com.saucedemo.swaglabs.testCases.MouseHover">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.MouseHover@80ec1f8]" started-at="2021-09-21T17:35:24Z" name="beforeClass" finished-at="2021-09-21T17:35:25Z" duration-ms="1332" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.MouseHover@7fe8ea47]" started-at="2022-04-15T06:59:14Z" name="beforeClass" finished-at="2022-04-15T06:59:15Z" duration-ms="638" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.saucedemo.swaglabs.testCases.MouseHover@80ec1f8]" started-at="2021-09-21T17:35:25Z" name="beforeMethod" finished-at="2021-09-21T17:35:33Z" duration-ms="7954" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.saucedemo.swaglabs.testCases.MouseHover@7fe8ea47]" started-at="2022-04-15T06:59:15Z" name="beforeMethod" finished-at="2022-04-15T06:59:20Z" duration-ms="5484" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="mouseHover()[pri:0, instance:com.saucedemo.swaglabs.testCases.MouseHover@80ec1f8]" started-at="2021-09-21T17:35:33Z" name="mouseHover" finished-at="2021-09-21T17:35:53Z" duration-ms="19709" status="PASS">
+        <test-method signature="mouseHover()[pri:0, instance:com.saucedemo.swaglabs.testCases.MouseHover@7fe8ea47]" started-at="2022-04-15T06:59:20Z" name="mouseHover" finished-at="2022-04-15T06:59:40Z" duration-ms="19840" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mouseHover -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.MouseHover@80ec1f8]" started-at="2021-09-21T17:35:53Z" name="afterClass" finished-at="2021-09-21T17:35:55Z" duration-ms="2083" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.saucedemo.swaglabs.testCases.MouseHover@80ec1f8]" started-at="2021-09-21T17:35:53Z" name="afterTest" finished-at="2021-09-21T17:35:53Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.saucedemo.swaglabs.testCases.MouseHover@7fe8ea47]" started-at="2022-04-15T06:59:40Z" name="afterTest" finished-at="2022-04-15T06:59:40Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.MouseHover@7fe8ea47]" started-at="2022-04-15T06:59:40Z" name="afterClass" finished-at="2022-04-15T06:59:40Z" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
       </class> <!-- com.saucedemo.swaglabs.testCases.MouseHover -->
       <class name="com.saucedemo.swaglabs.testCases.Iframe">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.Iframe@37574691]" started-at="2021-09-21T17:32:38Z" name="beforeClass" finished-at="2021-09-21T17:32:40Z" duration-ms="1242" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.Iframe@4461c7e3]" started-at="2022-04-15T06:55:56Z" name="beforeClass" finished-at="2022-04-15T06:55:57Z" duration-ms="638" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.saucedemo.swaglabs.testCases.Iframe@37574691]" started-at="2021-09-21T17:32:40Z" name="beforeMethod" finished-at="2021-09-21T17:32:48Z" duration-ms="8065" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.saucedemo.swaglabs.testCases.Iframe@4461c7e3]" started-at="2022-04-15T06:55:57Z" name="beforeMethod" finished-at="2022-04-15T06:56:01Z" duration-ms="4523" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="iframe()[pri:0, instance:com.saucedemo.swaglabs.testCases.Iframe@37574691]" started-at="2021-09-21T17:32:48Z" name="iframe" finished-at="2021-09-21T17:33:39Z" duration-ms="51338" status="PASS">
+        <test-method signature="iframe()[pri:0, instance:com.saucedemo.swaglabs.testCases.Iframe@4461c7e3]" started-at="2022-04-15T06:56:01Z" name="iframe" finished-at="2022-04-15T06:56:51Z" duration-ms="49597" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- iframe -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.Iframe@37574691]" started-at="2021-09-21T17:33:39Z" name="afterClass" finished-at="2021-09-21T17:33:39Z" duration-ms="368" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.saucedemo.swaglabs.testCases.Iframe@37574691]" started-at="2021-09-21T17:33:39Z" name="afterTest" finished-at="2021-09-21T17:33:39Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.saucedemo.swaglabs.testCases.Iframe@4461c7e3]" started-at="2022-04-15T06:56:51Z" name="afterTest" finished-at="2022-04-15T06:56:51Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.saucedemo.swaglabs.testCases.Iframe@4461c7e3]" started-at="2022-04-15T06:56:51Z" name="afterClass" finished-at="2022-04-15T06:56:51Z" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
       </class> <!-- com.saucedemo.swaglabs.testCases.Iframe -->
     </test> <!-- UITest -->
   </suite> <!-- Regression -->
