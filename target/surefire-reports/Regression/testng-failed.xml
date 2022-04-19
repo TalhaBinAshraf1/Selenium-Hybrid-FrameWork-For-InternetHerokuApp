@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="UITest(failed)" verbose="0">
+    <classes>
+      <class name="com.saucedemo.swaglabs.testCases.ScreenshotOfAnElement">
+        <methods>
+          <include name="afterTest"/>
+          <include name="screenshotOfAnElement"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.saucedemo.swaglabs.testCases.ScreenshotOfAnElement -->
+      <class name="com.saucedemo.swaglabs.testCases.InfiniteScroll">
+        <methods>
+          <include name="afterTest"/>
+          <include name="infiniteScroll"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.saucedemo.swaglabs.testCases.InfiniteScroll -->
+      <class name="com.saucedemo.swaglabs.testCases.FullPageScreenShot">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="fullPageScreenShot"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.saucedemo.swaglabs.testCases.FullPageScreenShot -->
+      <class name="com.saucedemo.swaglabs.testCases.ScreenshotOfWebpage">
+        <methods>
+          <include name="afterTest"/>
+          <include name="screenshotOfWebpage"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.saucedemo.swaglabs.testCases.ScreenshotOfWebpage -->
+    </classes>
+  </test> <!-- UITest(failed) -->
+</suite> <!-- Failed suite [Regression] -->

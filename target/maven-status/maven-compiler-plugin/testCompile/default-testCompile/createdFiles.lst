@@ -65,4 +65,5 @@ com\saucedemo\swaglabs\pages\ForgotPasswordPage.class
 com\saucedemo\swaglabs\pages\FramesIframePage.class
 com\saucedemo\swaglabs\testCases\ContextMenu.class
 com\saucedemo\swaglabs\pages\CheckBoxesPage.class
+com\saucedemo\swaglabs\basicJava\ResponsiveWebTest.class
 com\saucedemo\swaglabs\pages\Digest_auth.class
