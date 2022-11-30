@@ -19,6 +19,7 @@ public class AbTesting extends BasePage {
         return abTestingVariation1;
     }
 
+    public static final String BADHAN = "Shailkupa";
     //AB test Control
     @FindBy(css="#content  div  h3")
     public WebElement abTestControl;

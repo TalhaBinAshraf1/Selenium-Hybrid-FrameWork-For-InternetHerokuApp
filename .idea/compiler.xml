@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="swaglabs" target="8" />
+      <module name="swaglabs" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

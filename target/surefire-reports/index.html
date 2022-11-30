@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">25 methods, 4 failed,   21 passed</span>
+                    <span class="method-stats">25 methods, 3 failed,   22 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -103,11 +103,6 @@
                       <span>
                         <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Regression" title="com.saucedemo.swaglabs.testCases.FullPageScreenShot" class="method navigator-link" hash-for-method="fullPageScreenShot">fullPageScreenShot</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Regression" title="com.saucedemo.swaglabs.testCases.InfiniteScroll" class="method navigator-link" hash-for-method="infiniteScroll">infiniteScroll</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -201,6 +196,11 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="com.saucedemo.swaglabs.testCases.InfiniteScroll" class="method navigator-link" hash-for-method="infiniteScroll">infiniteScroll</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Regression" title="com.saucedemo.swaglabs.testCases.Input" class="method navigator-link" hash-for-method="input">input</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -261,86 +261,7 @@
 	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1085)
 	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1038)
 	at com.saucedemo.swaglabs.testCases.ScreenshotOfAnElement.screenshotOfAnElement(ScreenshotOfAnElement.java:37)
-... Removed 26 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Regression-class-failed -->
-          <div class="suite-Regression-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.saucedemo.swaglabs.testCases.InfiniteScroll</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="infiniteScroll">
-                  </a> <!-- infiniteScroll -->
-                  <span class="method-name">infiniteScroll</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:23306
-Build info: version: &apos;3.141.5&apos;, revision: &apos;d54ebd709a&apos;, time: &apos;2018-11-06T11:42:16&apos;
-System info: host: &apos;DESKTOP-C6OQV70&apos;, ip: &apos;192.168.0.193&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.back(RemoteWebDriver.java:849)
-	at com.saucedemo.swaglabs.testCases.InfiniteScroll.infiniteScroll(InfiniteScroll.java:42)
-Caused by: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:23306
-	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
-	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
-	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
-	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
-	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
-	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
-	at okhttp3.RealCall.execute(RealCall.java:77)
-	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	... 30 more
-Caused by: java.net.ConnectException: Connection refused: no further information
-	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
-	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:539)
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594)
-	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
-	at java.base/java.net.Socket.connect(Socket.java:633)
-	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
-	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
-	... 50 more
-... Removed 26 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Regression-class-failed -->
-          <div class="suite-Regression-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.saucedemo.swaglabs.testCases.FullPageScreenShot</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="fullPageScreenShot">
-                  </a> <!-- fullPageScreenShot -->
-                  <span class="method-name">fullPageScreenShot</span>
-                  <div class="stack-trace">javax.imageio.IIOException: Can&apos;t create an ImageOutputStream!
-	at java.desktop/javax.imageio.ImageIO.write(ImageIO.java:1553)
-	at com.saucedemo.swaglabs.testCases.FullPageScreenShot.fullPageScreenShot(FullPageScreenShot.java:26)
-... Removed 26 stack frames
+... Removed 28 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -361,7 +282,27 @@ Caused by: java.net.ConnectException: Connection refused: no further information
 	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1085)
 	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1038)
 	at com.saucedemo.swaglabs.testCases.ScreenshotOfWebpage.screenshotOfWebpage(ScreenshotOfWebpage.java:20)
-... Removed 26 stack frames
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-failed -->
+          <div class="suite-Regression-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.saucedemo.swaglabs.testCases.FullPageScreenShot</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="fullPageScreenShot">
+                  </a> <!-- fullPageScreenShot -->
+                  <span class="method-name">fullPageScreenShot</span>
+                  <div class="stack-trace">javax.imageio.IIOException: Can&apos;t create an ImageOutputStream!
+	at java.desktop/javax.imageio.ImageIO.write(ImageIO.java:1551)
+	at com.saucedemo.swaglabs.testCases.FullPageScreenShot.fullPageScreenShot(FullPageScreenShot.java:26)
+... Removed 28 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -385,51 +326,6 @@ Caused by: java.net.ConnectException: Connection refused: no further information
           <div class="suite-Regression-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.saucedemo.swaglabs.testCases.MouseHover</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="mouseHover">
-                  </a> <!-- mouseHover -->
-                  <span class="method-name">mouseHover</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Regression-class-passed -->
-          <div class="suite-Regression-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.saucedemo.swaglabs.testCases.NotificationMessage</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="notificationMessage">
-                  </a> <!-- notificationMessage -->
-                  <span class="method-name">notificationMessage</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Regression-class-passed -->
-          <div class="suite-Regression-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.saucedemo.swaglabs.testCases.FormAuth</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="formAuth">
-                  </a> <!-- formAuth -->
-                  <span class="method-name">formAuth</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Regression-class-passed -->
-          <div class="suite-Regression-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">com.saucedemo.swaglabs.testCases.AddRemoveElements</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -438,81 +334,6 @@ Caused by: java.net.ConnectException: Connection refused: no further information
                   <a name="addRemoveElements">
                   </a> <!-- addRemoveElements -->
                   <span class="method-name">addRemoveElements</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Regression-class-passed -->
-          <div class="suite-Regression-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.saucedemo.swaglabs.testCases.MultipleWindows</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="multipleWindows">
-                  </a> <!-- multipleWindows -->
-                  <span class="method-name">multipleWindows</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Regression-class-passed -->
-          <div class="suite-Regression-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.saucedemo.swaglabs.testCases.NestedFrames</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="nestedFrames">
-                  </a> <!-- nestedFrames -->
-                  <span class="method-name">nestedFrames</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Regression-class-passed -->
-          <div class="suite-Regression-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.saucedemo.swaglabs.testCases.Input</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="input">
-                  </a> <!-- input -->
-                  <span class="method-name">input</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Regression-class-passed -->
-          <div class="suite-Regression-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.saucedemo.swaglabs.testCases.ContextMenu</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="contextMenu">
-                  </a> <!-- contextMenu -->
-                  <span class="method-name">contextMenu</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Regression-class-passed -->
-          <div class="suite-Regression-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.saucedemo.swaglabs.testCases.DropDown</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="dropDown">
-                  </a> <!-- dropDown -->
-                  <span class="method-name">dropDown</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -535,51 +356,6 @@ Caused by: java.net.ConnectException: Connection refused: no further information
           <div class="suite-Regression-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.saucedemo.swaglabs.testCases.RedirectLink</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="redirectLink">
-                  </a> <!-- redirectLink -->
-                  <span class="method-name">redirectLink</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Regression-class-passed -->
-          <div class="suite-Regression-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.saucedemo.swaglabs.testCases.DynamicControl</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="dynamicControl">
-                  </a> <!-- dynamicControl -->
-                  <span class="method-name">dynamicControl</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Regression-class-passed -->
-          <div class="suite-Regression-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.saucedemo.swaglabs.testCases.Checkboxes</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="checkboxes">
-                  </a> <!-- checkboxes -->
-                  <span class="method-name">checkboxes</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Regression-class-passed -->
-          <div class="suite-Regression-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">com.saucedemo.swaglabs.testCases.BrokenImage</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -588,36 +364,6 @@ Caused by: java.net.ConnectException: Connection refused: no further information
                   <a name="brokenImage">
                   </a> <!-- brokenImage -->
                   <span class="method-name">brokenImage</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Regression-class-passed -->
-          <div class="suite-Regression-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.saucedemo.swaglabs.testCases.HorizontalSlider</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="horizontalSlider">
-                  </a> <!-- horizontalSlider -->
-                  <span class="method-name">horizontalSlider</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Regression-class-passed -->
-          <div class="suite-Regression-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.saucedemo.swaglabs.testCases.Iframe</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="iframe">
-                  </a> <!-- iframe -->
-                  <span class="method-name">iframe</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -640,6 +386,36 @@ Caused by: java.net.ConnectException: Connection refused: no further information
           <div class="suite-Regression-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">com.saucedemo.swaglabs.testCases.InfiniteScroll</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="infiniteScroll">
+                  </a> <!-- infiniteScroll -->
+                  <span class="method-name">infiniteScroll</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-passed -->
+          <div class="suite-Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.saucedemo.swaglabs.testCases.FormAuth</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="formAuth">
+                  </a> <!-- formAuth -->
+                  <span class="method-name">formAuth</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-passed -->
+          <div class="suite-Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">com.saucedemo.swaglabs.testCases.BasicAuth</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -655,14 +431,44 @@ Caused by: java.net.ConnectException: Connection refused: no further information
           <div class="suite-Regression-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.saucedemo.swaglabs.testCases.DisappearingElements</span>
+              <span class="class-name">com.saucedemo.swaglabs.testCases.NotificationMessage</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="disappearingElements">
-                  </a> <!-- disappearingElements -->
-                  <span class="method-name">disappearingElements</span>
+                  <a name="notificationMessage">
+                  </a> <!-- notificationMessage -->
+                  <span class="method-name">notificationMessage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-passed -->
+          <div class="suite-Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.saucedemo.swaglabs.testCases.Iframe</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="iframe">
+                  </a> <!-- iframe -->
+                  <span class="method-name">iframe</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-passed -->
+          <div class="suite-Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.saucedemo.swaglabs.testCases.HorizontalSlider</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="horizontalSlider">
+                  </a> <!-- horizontalSlider -->
+                  <span class="method-name">horizontalSlider</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -682,6 +488,156 @@ Caused by: java.net.ConnectException: Connection refused: no further information
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Regression-class-passed -->
+          <div class="suite-Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.saucedemo.swaglabs.testCases.ContextMenu</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="contextMenu">
+                  </a> <!-- contextMenu -->
+                  <span class="method-name">contextMenu</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-passed -->
+          <div class="suite-Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.saucedemo.swaglabs.testCases.DynamicControl</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dynamicControl">
+                  </a> <!-- dynamicControl -->
+                  <span class="method-name">dynamicControl</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-passed -->
+          <div class="suite-Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.saucedemo.swaglabs.testCases.MouseHover</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="mouseHover">
+                  </a> <!-- mouseHover -->
+                  <span class="method-name">mouseHover</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-passed -->
+          <div class="suite-Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.saucedemo.swaglabs.testCases.NestedFrames</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="nestedFrames">
+                  </a> <!-- nestedFrames -->
+                  <span class="method-name">nestedFrames</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-passed -->
+          <div class="suite-Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.saucedemo.swaglabs.testCases.Checkboxes</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkboxes">
+                  </a> <!-- checkboxes -->
+                  <span class="method-name">checkboxes</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-passed -->
+          <div class="suite-Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.saucedemo.swaglabs.testCases.Input</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="input">
+                  </a> <!-- input -->
+                  <span class="method-name">input</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-passed -->
+          <div class="suite-Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.saucedemo.swaglabs.testCases.DropDown</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dropDown">
+                  </a> <!-- dropDown -->
+                  <span class="method-name">dropDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-passed -->
+          <div class="suite-Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.saucedemo.swaglabs.testCases.MultipleWindows</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="multipleWindows">
+                  </a> <!-- multipleWindows -->
+                  <span class="method-name">multipleWindows</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-passed -->
+          <div class="suite-Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.saucedemo.swaglabs.testCases.RedirectLink</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="redirectLink">
+                  </a> <!-- redirectLink -->
+                  <span class="method-name">redirectLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-passed -->
+          <div class="suite-Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.saucedemo.swaglabs.testCases.DisappearingElements</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="disappearingElements">
+                  </a> <!-- disappearingElements -->
+                  <span class="method-name">disappearingElements</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-passed -->
         </div> <!-- panel Regression -->
         <div panel-name="test-xml-Regression" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -691,7 +647,7 @@ Caused by: java.net.ConnectException: Connection refused: no further information
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Regression&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+&lt;suite name=&quot;Regression&quot; verbose=&quot;0&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;UITest&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.saucedemo.swaglabs.testCases.UserAbleToClickOnCreateNewAccount&quot;&gt;
@@ -892,103 +848,103 @@ data.addRows(25);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'redirectLink')
 data.setCell(0, 2, 'com.saucedemo.swaglabs.testCases.RedirectLink')
-data.setCell(0, 3, 54327);
+data.setCell(0, 3, 51390);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'iframe')
 data.setCell(1, 2, 'com.saucedemo.swaglabs.testCases.Iframe')
-data.setCell(1, 3, 49597);
+data.setCell(1, 3, 48343);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'javaScriptAlert')
 data.setCell(2, 2, 'com.saucedemo.swaglabs.testCases.JavaScriptAlert')
-data.setCell(2, 3, 27947);
+data.setCell(2, 3, 27918);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'disappearingElements')
 data.setCell(3, 2, 'com.saucedemo.swaglabs.testCases.DisappearingElements')
-data.setCell(3, 3, 27745);
+data.setCell(3, 3, 26241);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'dropDown')
 data.setCell(4, 2, 'com.saucedemo.swaglabs.testCases.DropDown')
-data.setCell(4, 3, 25715);
+data.setCell(4, 3, 25599);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'formAuth')
 data.setCell(5, 2, 'com.saucedemo.swaglabs.testCases.FormAuth')
-data.setCell(5, 3, 22722);
+data.setCell(5, 3, 21688);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'addRemoveElements')
 data.setCell(6, 2, 'com.saucedemo.swaglabs.testCases.AddRemoveElements')
-data.setCell(6, 3, 20925);
+data.setCell(6, 3, 20562);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'mouseHover')
-data.setCell(7, 2, 'com.saucedemo.swaglabs.testCases.MouseHover')
-data.setCell(7, 3, 19840);
+data.setCell(7, 1, 'notificationMessage')
+data.setCell(7, 2, 'com.saucedemo.swaglabs.testCases.NotificationMessage')
+data.setCell(7, 3, 19285);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'multipleWindows')
-data.setCell(8, 2, 'com.saucedemo.swaglabs.testCases.MultipleWindows')
-data.setCell(8, 3, 19141);
+data.setCell(8, 1, 'mouseHover')
+data.setCell(8, 2, 'com.saucedemo.swaglabs.testCases.MouseHover')
+data.setCell(8, 3, 19061);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'nestedFrames')
-data.setCell(9, 2, 'com.saucedemo.swaglabs.testCases.NestedFrames')
-data.setCell(9, 3, 18724);
+data.setCell(9, 1, 'multipleWindows')
+data.setCell(9, 2, 'com.saucedemo.swaglabs.testCases.MultipleWindows')
+data.setCell(9, 3, 18787);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'infiniteScroll')
-data.setCell(10, 2, 'com.saucedemo.swaglabs.testCases.InfiniteScroll')
-data.setCell(10, 3, 18069);
+data.setCell(10, 1, 'nestedFrames')
+data.setCell(10, 2, 'com.saucedemo.swaglabs.testCases.NestedFrames')
+data.setCell(10, 3, 18477);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'notificationMessage')
-data.setCell(11, 2, 'com.saucedemo.swaglabs.testCases.NotificationMessage')
-data.setCell(11, 3, 18011);
+data.setCell(11, 1, 'dynamicControl')
+data.setCell(11, 2, 'com.saucedemo.swaglabs.testCases.DynamicControl')
+data.setCell(11, 3, 15701);
 data.setCell(12, 0, 12)
 data.setCell(12, 1, 'brokenImage')
 data.setCell(12, 2, 'com.saucedemo.swaglabs.testCases.BrokenImage')
-data.setCell(12, 3, 16323);
+data.setCell(12, 3, 15371);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'dynamicControl')
-data.setCell(13, 2, 'com.saucedemo.swaglabs.testCases.DynamicControl')
-data.setCell(13, 3, 15933);
+data.setCell(13, 1, 'forgotPassword')
+data.setCell(13, 2, 'com.saucedemo.swaglabs.testCases.ForgotPassword')
+data.setCell(13, 3, 12880);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'forgotPassword')
-data.setCell(14, 2, 'com.saucedemo.swaglabs.testCases.ForgotPassword')
-data.setCell(14, 3, 12834);
+data.setCell(14, 1, 'dynamicContent')
+data.setCell(14, 2, 'com.saucedemo.swaglabs.testCases.DynamicContent')
+data.setCell(14, 3, 11948);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'dynamicContent')
-data.setCell(15, 2, 'com.saucedemo.swaglabs.testCases.DynamicContent')
-data.setCell(15, 3, 12788);
+data.setCell(15, 1, 'infiniteScroll')
+data.setCell(15, 2, 'com.saucedemo.swaglabs.testCases.InfiniteScroll')
+data.setCell(15, 3, 11703);
 data.setCell(16, 0, 16)
 data.setCell(16, 1, 'basicAuth')
 data.setCell(16, 2, 'com.saucedemo.swaglabs.testCases.BasicAuth')
-data.setCell(16, 3, 11593);
+data.setCell(16, 3, 11172);
 data.setCell(17, 0, 17)
 data.setCell(17, 1, 'input')
 data.setCell(17, 2, 'com.saucedemo.swaglabs.testCases.Input')
-data.setCell(17, 3, 11098);
+data.setCell(17, 3, 10736);
 data.setCell(18, 0, 18)
 data.setCell(18, 1, 'contextMenu')
 data.setCell(18, 2, 'com.saucedemo.swaglabs.testCases.ContextMenu')
-data.setCell(18, 3, 10819);
+data.setCell(18, 3, 10580);
 data.setCell(19, 0, 19)
 data.setCell(19, 1, 'checkboxes')
 data.setCell(19, 2, 'com.saucedemo.swaglabs.testCases.Checkboxes')
-data.setCell(19, 3, 9548);
+data.setCell(19, 3, 9485);
 data.setCell(20, 0, 20)
 data.setCell(20, 1, 'digestAuthentication')
 data.setCell(20, 2, 'com.saucedemo.swaglabs.testCases.DigestAuthentication')
-data.setCell(20, 3, 9503);
+data.setCell(20, 3, 8759);
 data.setCell(21, 0, 21)
 data.setCell(21, 1, 'horizontalSlider')
 data.setCell(21, 2, 'com.saucedemo.swaglabs.testCases.HorizontalSlider')
-data.setCell(21, 3, 7886);
+data.setCell(21, 3, 7787);
 data.setCell(22, 0, 22)
 data.setCell(22, 1, 'fullPageScreenShot')
 data.setCell(22, 2, 'com.saucedemo.swaglabs.testCases.FullPageScreenShot')
-data.setCell(22, 3, 4321);
+data.setCell(22, 3, 4267);
 data.setCell(23, 0, 23)
 data.setCell(23, 1, 'screenshotOfWebpage')
 data.setCell(23, 2, 'com.saucedemo.swaglabs.testCases.ScreenshotOfWebpage')
-data.setCell(23, 3, 759);
+data.setCell(23, 3, 420);
 data.setCell(24, 0, 24)
 data.setCell(24, 1, 'screenshotOfAnElement')
 data.setCell(24, 2, 'com.saucedemo.swaglabs.testCases.ScreenshotOfAnElement')
-data.setCell(24, 3, 182);
+data.setCell(24, 3, 179);
 window.suiteTableData['Regression']= { tableData: data, tableDiv: 'times-div-Regression'}
 return data;
 }
@@ -1012,30 +968,16 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">com.saucedemo.swaglabs.testCases.UserAbleToClickOnCreateNewAccount</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">userAbleToClickOnCreateNewAccount</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">com.saucedemo.swaglabs.testCases.FileDownload</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">fileDownload</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">com.saucedemo.swaglabs.testCases.UserAbleToClickOnForgetPassword</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">userAbleToClickOnForgetPassword</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
               <span class="ignored-class-name">com.saucedemo.swaglabs.testCases.DragAndDrop</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">dragAndDrop</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.saucedemo.swaglabs.testCases.FileUpload</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">fileUpload</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -1047,9 +989,23 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">com.saucedemo.swaglabs.testCases.FileUpload</span>
+              <span class="ignored-class-name">com.saucedemo.swaglabs.testCases.UserAbleToClickOnForgetPassword</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">fileUpload</span>
+                <span class="ignored-method-name">userAbleToClickOnForgetPassword</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.saucedemo.swaglabs.testCases.UserAbleToClickOnCreateNewAccount</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">userAbleToClickOnCreateNewAccount</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.saucedemo.swaglabs.testCases.FileDownload</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">fileDownload</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -1068,581 +1024,577 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">2085 ms</span>
+                <span class="method-start">1348 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">addRemoveElements</span>
-                <span class="method-start">14103 ms</span>
+                <span class="method-start">6933 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">35029 ms</span>
+                <span class="method-start">27498 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">35029 ms</span>
+                <span class="method-start">27499 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.saucedemo.swaglabs.testCases.DropDown</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">35075 ms</span>
+                <span class="method-start">28056 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">35683 ms</span>
+                <span class="method-start">29112 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">dropDown</span>
-                <span class="method-start">40375 ms</span>
+                <span class="method-start">34601 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">66090 ms</span>
+                <span class="method-start">60201 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">66090 ms</span>
+                <span class="method-start">60202 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.saucedemo.swaglabs.testCases.ForgotPassword</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">66152 ms</span>
+                <span class="method-start">60757 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">66806 ms</span>
+                <span class="method-start">61805 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">forgotPassword</span>
-                <span class="method-start">71948 ms</span>
+                <span class="method-start">69016 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">84782 ms</span>
+                <span class="method-start">81896 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">84782 ms</span>
+                <span class="method-start">81897 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.saucedemo.swaglabs.testCases.BasicAuth</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">84830 ms</span>
+                <span class="method-start">82448 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">85437 ms</span>
+                <span class="method-start">83492 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">basicAuth</span>
-                <span class="method-start">89959 ms</span>
+                <span class="method-start">88490 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">101552 ms</span>
+                <span class="method-start">99663 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">101552 ms</span>
+                <span class="method-start">99664 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.saucedemo.swaglabs.testCases.DynamicContent</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">101630 ms</span>
+                <span class="method-start">100216 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">102253 ms</span>
+                <span class="method-start">101273 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">dynamicContent</span>
-                <span class="method-start">107163 ms</span>
+                <span class="method-start">106174 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">119951 ms</span>
+                <span class="method-start">118123 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">119951 ms</span>
+                <span class="method-start">118123 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.saucedemo.swaglabs.testCases.FormAuth</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">120013 ms</span>
+                <span class="method-start">118679 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">120698 ms</span>
+                <span class="method-start">119735 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">formAuth</span>
-                <span class="method-start">125236 ms</span>
+                <span class="method-start">124868 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">147958 ms</span>
+                <span class="method-start">146556 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">147958 ms</span>
+                <span class="method-start">146557 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.saucedemo.swaglabs.testCases.BrokenImage</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">148005 ms</span>
+                <span class="method-start">147112 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">148690 ms</span>
+                <span class="method-start">148153 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">brokenImage</span>
-                <span class="method-start">153507 ms</span>
+                <span class="method-start">156330 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">169830 ms</span>
+                <span class="method-start">171701 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">169830 ms</span>
+                <span class="method-start">171702 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.saucedemo.swaglabs.testCases.DynamicControl</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">169891 ms</span>
+                <span class="method-start">172255 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">170575 ms</span>
+                <span class="method-start">173307 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">dynamicControl</span>
-                <span class="method-start">176291 ms</span>
+                <span class="method-start">180059 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">192224 ms</span>
+                <span class="method-start">195760 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">192224 ms</span>
+                <span class="method-start">195762 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.saucedemo.swaglabs.testCases.HorizontalSlider</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">192271 ms</span>
+                <span class="method-start">196319 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">192940 ms</span>
+                <span class="method-start">197370 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">horizontalSlider</span>
-                <span class="method-start">198780 ms</span>
+                <span class="method-start">202500 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">206666 ms</span>
+                <span class="method-start">210287 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">206666 ms</span>
+                <span class="method-start">210287 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.saucedemo.swaglabs.testCases.Checkboxes</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">206732 ms</span>
+                <span class="method-start">210847 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">207370 ms</span>
+                <span class="method-start">211903 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">checkboxes</span>
-                <span class="method-start">212264 ms</span>
+                <span class="method-start">217745 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">221812 ms</span>
+                <span class="method-start">227230 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">221812 ms</span>
+                <span class="method-start">227231 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.saucedemo.swaglabs.testCases.Iframe</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">221859 ms</span>
+                <span class="method-start">227780 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">222497 ms</span>
+                <span class="method-start">228830 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">iframe</span>
-                <span class="method-start">227020 ms</span>
+                <span class="method-start">235484 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">276617 ms</span>
+                <span class="method-start">283827 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">276618 ms</span>
+                <span class="method-start">283828 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.saucedemo.swaglabs.testCases.ContextMenu</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">276695 ms</span>
+                <span class="method-start">284380 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">277318 ms</span>
+                <span class="method-start">285439 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">contextMenu</span>
-                <span class="method-start">283499 ms</span>
+                <span class="method-start">290709 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">294318 ms</span>
+                <span class="method-start">301290 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">294318 ms</span>
+                <span class="method-start">301290 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.saucedemo.swaglabs.testCases.InfiniteScroll</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">294365 ms</span>
+                <span class="method-start">301843 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">295065 ms</span>
+                <span class="method-start">302895 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">infiniteScroll</span>
-                <span class="method-start">299928 ms</span>
+                <span class="method-start">308093 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">318000 ms</span>
+                <span class="method-start">319796 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">afterClass</span>
-                <span class="method-start">318000 ms</span>
+                <span class="method-start">319797 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.saucedemo.swaglabs.testCases.DigestAuthentication</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">318017 ms</span>
+                <span class="method-start">320354 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">318670 ms</span>
+                <span class="method-start">321405 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">digestAuthentication</span>
-                <span class="method-start">323813 ms</span>
+                <span class="method-start">326334 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">333316 ms</span>
+                <span class="method-start">335094 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">333316 ms</span>
+                <span class="method-start">335095 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.saucedemo.swaglabs.testCases.Input</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">333376 ms</span>
+                <span class="method-start">335648 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">333999 ms</span>
+                <span class="method-start">336697 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">input</span>
-                <span class="method-start">339127 ms</span>
+                <span class="method-start">341888 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">350225 ms</span>
+                <span class="method-start">352625 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">350225 ms</span>
+                <span class="method-start">352625 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.saucedemo.swaglabs.testCases.DisappearingElements</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">350272 ms</span>
+                <span class="method-start">353174 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">350941 ms</span>
+                <span class="method-start">354222 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">disappearingElements</span>
-                <span class="method-start">356765 ms</span>
+                <span class="method-start">359127 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">384510 ms</span>
+                <span class="method-start">385370 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">384510 ms</span>
+                <span class="method-start">385370 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.saucedemo.swaglabs.testCases.JavaScriptAlert</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">384588 ms</span>
+                <span class="method-start">385927 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">385226 ms</span>
+                <span class="method-start">386979 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">javaScriptAlert</span>
-                <span class="method-start">391841 ms</span>
+                <span class="method-start">392109 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">419788 ms</span>
+                <span class="method-start">420027 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">419788 ms</span>
+                <span class="method-start">420028 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.saucedemo.swaglabs.testCases.MouseHover</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">419835 ms</span>
+                <span class="method-start">420582 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">420473 ms</span>
+                <span class="method-start">421631 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">mouseHover</span>
-                <span class="method-start">425957 ms</span>
+                <span class="method-start">426634 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">445797 ms</span>
+                <span class="method-start">445695 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">445797 ms</span>
+                <span class="method-start">445695 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.saucedemo.swaglabs.testCases.MultipleWindows</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">445874 ms</span>
+                <span class="method-start">446249 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">446513 ms</span>
+                <span class="method-start">447304 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">multipleWindows</span>
-                <span class="method-start">451020 ms</span>
+                <span class="method-start">452588 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">470161 ms</span>
+                <span class="method-start">471376 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">470162 ms</span>
+                <span class="method-start">471376 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.saucedemo.swaglabs.testCases.NestedFrames</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">470224 ms</span>
+                <span class="method-start">471932 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">470877 ms</span>
+                <span class="method-start">472979 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">nestedFrames</span>
-                <span class="method-start">476934 ms</span>
+                <span class="method-start">478465 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">495658 ms</span>
+                <span class="method-start">496942 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">495658 ms</span>
+                <span class="method-start">496942 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.saucedemo.swaglabs.testCases.NotificationMessage</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">495705 ms</span>
+                <span class="method-start">497498 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">496373 ms</span>
+                <span class="method-start">498533 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">notificationMessage</span>
-                <span class="method-start">501237 ms</span>
+                <span class="method-start">506011 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">519248 ms</span>
+                <span class="method-start">525297 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">519248 ms</span>
+                <span class="method-start">525297 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.saucedemo.swaglabs.testCases.RedirectLink</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">519297 ms</span>
+                <span class="method-start">525853 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">519964 ms</span>
+                <span class="method-start">526891 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">redirectLink</span>
-                <span class="method-start">524503 ms</span>
+                <span class="method-start">533651 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">578830 ms</span>
+                <span class="method-start">585042 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">578830 ms</span>
+                <span class="method-start">585042 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.saucedemo.swaglabs.testCases.ScreenshotOfWebpage</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">578892 ms</span>
+                <span class="method-start">585600 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">579530 ms</span>
+                <span class="method-start">586652 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">screenshotOfWebpage</span>
-                <span class="method-start">585153 ms</span>
+                <span class="method-start">592041 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">585912 ms</span>
+                <span class="method-start">592465 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">585912 ms</span>
+                <span class="method-start">592465 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.saucedemo.swaglabs.testCases.ScreenshotOfAnElement</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">585960 ms</span>
+                <span class="method-start">593035 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">586613 ms</span>
+                <span class="method-start">594088 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">screenshotOfAnElement</span>
-                <span class="method-start">591802 ms</span>
+                <span class="method-start">599616 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">591984 ms</span>
+                <span class="method-start">599798 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">591984 ms</span>
+                <span class="method-start">599799 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.saucedemo.swaglabs.testCases.FullPageScreenShot</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">592035 ms</span>
+                <span class="method-start">600358 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">592704 ms</span>
+                <span class="method-start">601410 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">fullPageScreenShot</span>
-                <span class="method-start">598901 ms</span>
+                <span class="method-start">606431 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">603222 ms</span>
+                <span class="method-start">610698 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">603222 ms</span>
+                <span class="method-start">610699 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
