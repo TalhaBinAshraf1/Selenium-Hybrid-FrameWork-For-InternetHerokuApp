@@ -13,7 +13,7 @@ public class Data{
 
     //AB Test
     public static final String  AB_TESTING = "A/B Testing";
-    public static final String  AB_TEST_VARIATION1 = "A/B Test Variation 1";
+    public static final String  AB_TEST_VARIATION1 = "Top Questions";
     public static final String  AB_TEST_Control = "A/B Test Control";
     public static final String  AB_Test_LINK = "abtest";
 

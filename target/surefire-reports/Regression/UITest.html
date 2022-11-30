@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>UITest</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>21/4/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>22/3/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Apr 15 12:52:14 BDT 2022</td>
+<td>Started on:</td><td>Fri Oct 21 11:07:07 BDT 2022</td>
 </tr>
-<tr><td>Total time:</td><td>603 seconds (603292 ms)</td>
+<tr><td>Total time:</td><td>611 seconds (611264 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,131 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.saucedemo.swaglabs.testCases.InfiniteScroll.afterClass()'><b>afterClass</b><br>Test class: com.saucedemo.swaglabs.testCases.InfiniteScroll</td>
-<td><div><pre>org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:23306
-Build info: version: &apos;3.141.5&apos;, revision: &apos;d54ebd709a&apos;, time: &apos;2018-11-06T11:42:16&apos;
-System info: host: &apos;DESKTOP-C6OQV70&apos;, ip: &apos;192.168.0.193&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
-	at com.saucedemo.swaglabs.testCases.BaseClass.afterClass(BaseClass.java:55)
-Caused by: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:23306
-	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
-	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
-	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
-	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
-	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
-	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
-	at okhttp3.RealCall.execute(RealCall.java:77)
-	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	... 31 more
-Caused by: java.net.ConnectException: Connection refused: no further information
-	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
-	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:539)
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594)
-	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
-	at java.base/java.net.Socket.connect(Socket.java:633)
-	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
-	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
-	... 51 more
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace423639033", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace423639033'><pre>org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:23306
-Build info: version: &apos;3.141.5&apos;, revision: &apos;d54ebd709a&apos;, time: &apos;2018-11-06T11:42:16&apos;
-System info: host: &apos;DESKTOP-C6OQV70&apos;, ip: &apos;192.168.0.193&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
-	at com.saucedemo.swaglabs.testCases.BaseClass.afterClass(BaseClass.java:55)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-	at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:214)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
-Caused by: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:23306
-	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
-	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
-	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
-	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
-	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
-	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
-	at okhttp3.RealCall.execute(RealCall.java:77)
-	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	... 31 more
-Caused by: java.net.ConnectException: Connection refused: no further information
-	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
-	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:539)
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594)
-	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
-	at java.base/java.net.Socket.connect(Socket.java:633)
-	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
-	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
-	... 51 more
-</pre></div></td>
-<td>0</td>
-<td>com.saucedemo.swaglabs.testCases.InfiniteScroll@351d0846</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-failed'>
 <tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -202,14 +77,16 @@ Caused by: java.net.ConnectException: Connection refused: no further information
 <tr>
 <td title='com.saucedemo.swaglabs.testCases.FullPageScreenShot.fullPageScreenShot()'><b>fullPageScreenShot</b><br>Test class: com.saucedemo.swaglabs.testCases.FullPageScreenShot</td>
 <td><div><pre>javax.imageio.IIOException: Can&apos;t create an ImageOutputStream!
-	at java.desktop/javax.imageio.ImageIO.write(ImageIO.java:1553)
+	at java.desktop/javax.imageio.ImageIO.write(ImageIO.java:1551)
 	at com.saucedemo.swaglabs.testCases.FullPageScreenShot.fullPageScreenShot(FullPageScreenShot.java:26)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1456923361", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1456923361'><pre>javax.imageio.IIOException: Can&apos;t create an ImageOutputStream!
-	at java.desktop/javax.imageio.ImageIO.write(ImageIO.java:1553)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace767528188", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace767528188'><pre>javax.imageio.IIOException: Can&apos;t create an ImageOutputStream!
+	at java.desktop/javax.imageio.ImageIO.write(ImageIO.java:1551)
 	at com.saucedemo.swaglabs.testCases.FullPageScreenShot.fullPageScreenShot(FullPageScreenShot.java:26)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
@@ -236,136 +113,22 @@ Caused by: java.net.ConnectException: Connection refused: no further information
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
 </pre></div></td>
 <td>4</td>
-<td>com.saucedemo.swaglabs.testCases.FullPageScreenShot@1b68b9a4</td></tr>
-<tr>
-<td title='com.saucedemo.swaglabs.testCases.InfiniteScroll.infiniteScroll()'><b>infiniteScroll</b><br>Test class: com.saucedemo.swaglabs.testCases.InfiniteScroll</td>
-<td><div><pre>org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:23306
-Build info: version: &apos;3.141.5&apos;, revision: &apos;d54ebd709a&apos;, time: &apos;2018-11-06T11:42:16&apos;
-System info: host: &apos;DESKTOP-C6OQV70&apos;, ip: &apos;192.168.0.193&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.back(RemoteWebDriver.java:849)
-	at com.saucedemo.swaglabs.testCases.InfiniteScroll.infiniteScroll(InfiniteScroll.java:42)
-Caused by: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:23306
-	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
-	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
-	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
-	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
-	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
-	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
-	at okhttp3.RealCall.execute(RealCall.java:77)
-	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	... 30 more
-Caused by: java.net.ConnectException: Connection refused: no further information
-	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
-	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:539)
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594)
-	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
-	at java.base/java.net.Socket.connect(Socket.java:633)
-	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
-	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
-	... 50 more
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2071592732", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2071592732'><pre>org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:23306
-Build info: version: &apos;3.141.5&apos;, revision: &apos;d54ebd709a&apos;, time: &apos;2018-11-06T11:42:16&apos;
-System info: host: &apos;DESKTOP-C6OQV70&apos;, ip: &apos;192.168.0.193&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.back(RemoteWebDriver.java:849)
-	at com.saucedemo.swaglabs.testCases.InfiniteScroll.infiniteScroll(InfiniteScroll.java:42)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
-Caused by: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:23306
-	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
-	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
-	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
-	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
-	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
-	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
-	at okhttp3.RealCall.execute(RealCall.java:77)
-	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	... 30 more
-Caused by: java.net.ConnectException: Connection refused: no further information
-	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
-	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:539)
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594)
-	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
-	at java.base/java.net.Socket.connect(Socket.java:633)
-	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
-	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
-	... 50 more
-</pre></div></td>
-<td>18</td>
-<td>com.saucedemo.swaglabs.testCases.InfiniteScroll@351d0846</td></tr>
+<td>com.saucedemo.swaglabs.testCases.FullPageScreenShot@4f49f6af</td></tr>
 <tr>
 <td title='com.saucedemo.swaglabs.testCases.ScreenshotOfAnElement.screenshotOfAnElement()'><b>screenshotOfAnElement</b><br>Test class: com.saucedemo.swaglabs.testCases.ScreenshotOfAnElement</td>
 <td><div><pre>java.io.IOException: Destination &apos;G:\Talha\SQA\Github\sqabdautomation\Java\Talha\swaglabs\Images&apos; directory cannot be created
 	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1085)
 	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1038)
 	at com.saucedemo.swaglabs.testCases.ScreenshotOfAnElement.screenshotOfAnElement(ScreenshotOfAnElement.java:37)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1726093528", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1726093528'><pre>java.io.IOException: Destination &apos;G:\Talha\SQA\Github\sqabdautomation\Java\Talha\swaglabs\Images&apos; directory cannot be created
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1486717726", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1486717726'><pre>java.io.IOException: Destination &apos;G:\Talha\SQA\Github\sqabdautomation\Java\Talha\swaglabs\Images&apos; directory cannot be created
 	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1085)
 	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1038)
 	at com.saucedemo.swaglabs.testCases.ScreenshotOfAnElement.screenshotOfAnElement(ScreenshotOfAnElement.java:37)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
@@ -392,20 +155,22 @@ Caused by: java.net.ConnectException: Connection refused: no further information
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
 </pre></div></td>
 <td>0</td>
-<td>com.saucedemo.swaglabs.testCases.ScreenshotOfAnElement@64d2d351</td></tr>
+<td>com.saucedemo.swaglabs.testCases.ScreenshotOfAnElement@21be3395</td></tr>
 <tr>
 <td title='com.saucedemo.swaglabs.testCases.ScreenshotOfWebpage.screenshotOfWebpage()'><b>screenshotOfWebpage</b><br>Test class: com.saucedemo.swaglabs.testCases.ScreenshotOfWebpage</td>
 <td><div><pre>java.io.IOException: Destination &apos;G:\Talha\SQA\Github\sqabdautomation\Java\Talha\swaglabs\Images&apos; directory cannot be created
 	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1085)
 	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1038)
 	at com.saucedemo.swaglabs.testCases.ScreenshotOfWebpage.screenshotOfWebpage(ScreenshotOfWebpage.java:20)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace743800558", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace743800558'><pre>java.io.IOException: Destination &apos;G:\Talha\SQA\Github\sqabdautomation\Java\Talha\swaglabs\Images&apos; directory cannot be created
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace562337324", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace562337324'><pre>java.io.IOException: Destination &apos;G:\Talha\SQA\Github\sqabdautomation\Java\Talha\swaglabs\Images&apos; directory cannot be created
 	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1085)
 	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1038)
 	at com.saucedemo.swaglabs.testCases.ScreenshotOfWebpage.screenshotOfWebpage(ScreenshotOfWebpage.java:20)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
@@ -432,7 +197,7 @@ Caused by: java.net.ConnectException: Connection refused: no further information
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
 </pre></div></td>
 <td>0</td>
-<td>com.saucedemo.swaglabs.testCases.ScreenshotOfWebpage@6b53e23f</td></tr>
+<td>com.saucedemo.swaglabs.testCases.ScreenshotOfWebpage@7d322cad</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -445,107 +210,112 @@ Caused by: java.net.ConnectException: Connection refused: no further information
 <td title='com.saucedemo.swaglabs.testCases.AddRemoveElements.addRemoveElements()'><b>addRemoveElements</b><br>Test class: com.saucedemo.swaglabs.testCases.AddRemoveElements</td>
 <td></td>
 <td>20</td>
-<td>com.saucedemo.swaglabs.testCases.AddRemoveElements@61d47554</td></tr>
+<td>com.saucedemo.swaglabs.testCases.AddRemoveElements@69ee81fc</td></tr>
 <tr>
 <td title='com.saucedemo.swaglabs.testCases.BasicAuth.basicAuth()'><b>basicAuth</b><br>Test class: com.saucedemo.swaglabs.testCases.BasicAuth</td>
 <td></td>
 <td>11</td>
-<td>com.saucedemo.swaglabs.testCases.BasicAuth@69b794e2</td></tr>
+<td>com.saucedemo.swaglabs.testCases.BasicAuth@6e2aa843</td></tr>
 <tr>
 <td title='com.saucedemo.swaglabs.testCases.BrokenImage.brokenImage()'><b>brokenImage</b><br>Test class: com.saucedemo.swaglabs.testCases.BrokenImage</td>
 <td></td>
-<td>16</td>
-<td>com.saucedemo.swaglabs.testCases.BrokenImage@3f200884</td></tr>
+<td>15</td>
+<td>com.saucedemo.swaglabs.testCases.BrokenImage@6f36c2f0</td></tr>
 <tr>
 <td title='com.saucedemo.swaglabs.testCases.Checkboxes.checkboxes()'><b>checkboxes</b><br>Test class: com.saucedemo.swaglabs.testCases.Checkboxes</td>
 <td></td>
 <td>9</td>
-<td>com.saucedemo.swaglabs.testCases.Checkboxes@4d339552</td></tr>
+<td>com.saucedemo.swaglabs.testCases.Checkboxes@f58853c</td></tr>
 <tr>
 <td title='com.saucedemo.swaglabs.testCases.ContextMenu.contextMenu()'><b>contextMenu</b><br>Test class: com.saucedemo.swaglabs.testCases.ContextMenu</td>
 <td></td>
 <td>10</td>
-<td>com.saucedemo.swaglabs.testCases.ContextMenu@f0f2775</td></tr>
+<td>com.saucedemo.swaglabs.testCases.ContextMenu@1224144a</td></tr>
 <tr>
 <td title='com.saucedemo.swaglabs.testCases.DigestAuthentication.digestAuthentication()'><b>digestAuthentication</b><br>Test class: com.saucedemo.swaglabs.testCases.DigestAuthentication</td>
 <td></td>
-<td>9</td>
-<td>com.saucedemo.swaglabs.testCases.DigestAuthentication@5a4aa2f2</td></tr>
+<td>8</td>
+<td>com.saucedemo.swaglabs.testCases.DigestAuthentication@29f7cefd</td></tr>
 <tr>
 <td title='com.saucedemo.swaglabs.testCases.DisappearingElements.disappearingElements()'><b>disappearingElements</b><br>Test class: com.saucedemo.swaglabs.testCases.DisappearingElements</td>
 <td></td>
-<td>27</td>
-<td>com.saucedemo.swaglabs.testCases.DisappearingElements@6591f517</td></tr>
+<td>26</td>
+<td>com.saucedemo.swaglabs.testCases.DisappearingElements@700fb871</td></tr>
 <tr>
 <td title='com.saucedemo.swaglabs.testCases.DropDown.dropDown()'><b>dropDown</b><br>Test class: com.saucedemo.swaglabs.testCases.DropDown</td>
 <td></td>
 <td>25</td>
-<td>com.saucedemo.swaglabs.testCases.DropDown@345965f2</td></tr>
+<td>com.saucedemo.swaglabs.testCases.DropDown@3b35a229</td></tr>
 <tr>
 <td title='com.saucedemo.swaglabs.testCases.DynamicContent.dynamicContent()'><b>dynamicContent</b><br>Test class: com.saucedemo.swaglabs.testCases.DynamicContent</td>
 <td></td>
-<td>12</td>
-<td>com.saucedemo.swaglabs.testCases.DynamicContent@429bd883</td></tr>
+<td>11</td>
+<td>com.saucedemo.swaglabs.testCases.DynamicContent@9816741</td></tr>
 <tr>
 <td title='com.saucedemo.swaglabs.testCases.DynamicControl.dynamicControl()'><b>dynamicControl</b><br>Test class: com.saucedemo.swaglabs.testCases.DynamicControl</td>
 <td></td>
 <td>15</td>
-<td>com.saucedemo.swaglabs.testCases.DynamicControl@4d49af10</td></tr>
+<td>com.saucedemo.swaglabs.testCases.DynamicControl@1e16c0aa</td></tr>
 <tr>
 <td title='com.saucedemo.swaglabs.testCases.ForgotPassword.forgotPassword()'><b>forgotPassword</b><br>Test class: com.saucedemo.swaglabs.testCases.ForgotPassword</td>
 <td></td>
 <td>12</td>
-<td>com.saucedemo.swaglabs.testCases.ForgotPassword@279ad2e3</td></tr>
+<td>com.saucedemo.swaglabs.testCases.ForgotPassword@13d73f29</td></tr>
 <tr>
 <td title='com.saucedemo.swaglabs.testCases.FormAuth.formAuth()'><b>formAuth</b><br>Test class: com.saucedemo.swaglabs.testCases.FormAuth</td>
 <td></td>
-<td>22</td>
-<td>com.saucedemo.swaglabs.testCases.FormAuth@58134517</td></tr>
+<td>21</td>
+<td>com.saucedemo.swaglabs.testCases.FormAuth@565f390</td></tr>
 <tr>
 <td title='com.saucedemo.swaglabs.testCases.HorizontalSlider.horizontalSlider()'><b>horizontalSlider</b><br>Test class: com.saucedemo.swaglabs.testCases.HorizontalSlider</td>
 <td></td>
 <td>7</td>
-<td>com.saucedemo.swaglabs.testCases.HorizontalSlider@4450d156</td></tr>
+<td>com.saucedemo.swaglabs.testCases.HorizontalSlider@7dc3712</td></tr>
 <tr>
 <td title='com.saucedemo.swaglabs.testCases.Iframe.iframe()'><b>iframe</b><br>Test class: com.saucedemo.swaglabs.testCases.Iframe</td>
 <td></td>
-<td>49</td>
-<td>com.saucedemo.swaglabs.testCases.Iframe@4461c7e3</td></tr>
+<td>48</td>
+<td>com.saucedemo.swaglabs.testCases.Iframe@2f67a4d3</td></tr>
+<tr>
+<td title='com.saucedemo.swaglabs.testCases.InfiniteScroll.infiniteScroll()'><b>infiniteScroll</b><br>Test class: com.saucedemo.swaglabs.testCases.InfiniteScroll</td>
+<td></td>
+<td>11</td>
+<td>com.saucedemo.swaglabs.testCases.InfiniteScroll@5e3f861</td></tr>
 <tr>
 <td title='com.saucedemo.swaglabs.testCases.Input.input()'><b>input</b><br>Test class: com.saucedemo.swaglabs.testCases.Input</td>
 <td></td>
-<td>11</td>
-<td>com.saucedemo.swaglabs.testCases.Input@77e4c80f</td></tr>
+<td>10</td>
+<td>com.saucedemo.swaglabs.testCases.Input@2fb0623e</td></tr>
 <tr>
 <td title='com.saucedemo.swaglabs.testCases.JavaScriptAlert.javaScriptAlert()'><b>javaScriptAlert</b><br>Test class: com.saucedemo.swaglabs.testCases.JavaScriptAlert</td>
 <td></td>
 <td>27</td>
-<td>com.saucedemo.swaglabs.testCases.JavaScriptAlert@35fc6dc4</td></tr>
+<td>com.saucedemo.swaglabs.testCases.JavaScriptAlert@49b2a47d</td></tr>
 <tr>
 <td title='com.saucedemo.swaglabs.testCases.MouseHover.mouseHover()'><b>mouseHover</b><br>Test class: com.saucedemo.swaglabs.testCases.MouseHover</td>
 <td></td>
 <td>19</td>
-<td>com.saucedemo.swaglabs.testCases.MouseHover@7fe8ea47</td></tr>
+<td>com.saucedemo.swaglabs.testCases.MouseHover@5be1d0a4</td></tr>
 <tr>
 <td title='com.saucedemo.swaglabs.testCases.MultipleWindows.multipleWindows()'><b>multipleWindows</b><br>Test class: com.saucedemo.swaglabs.testCases.MultipleWindows</td>
 <td></td>
-<td>19</td>
-<td>com.saucedemo.swaglabs.testCases.MultipleWindows@226a82c4</td></tr>
+<td>18</td>
+<td>com.saucedemo.swaglabs.testCases.MultipleWindows@415b0b49</td></tr>
 <tr>
 <td title='com.saucedemo.swaglabs.testCases.NestedFrames.nestedFrames()'><b>nestedFrames</b><br>Test class: com.saucedemo.swaglabs.testCases.NestedFrames</td>
 <td></td>
 <td>18</td>
-<td>com.saucedemo.swaglabs.testCases.NestedFrames@731f8236</td></tr>
+<td>com.saucedemo.swaglabs.testCases.NestedFrames@6d5620ce</td></tr>
 <tr>
 <td title='com.saucedemo.swaglabs.testCases.NotificationMessage.notificationMessage()'><b>notificationMessage</b><br>Test class: com.saucedemo.swaglabs.testCases.NotificationMessage</td>
 <td></td>
-<td>18</td>
-<td>com.saucedemo.swaglabs.testCases.NotificationMessage@255b53dc</td></tr>
+<td>19</td>
+<td>com.saucedemo.swaglabs.testCases.NotificationMessage@311bf055</td></tr>
 <tr>
 <td title='com.saucedemo.swaglabs.testCases.RedirectLink.redirectLink()'><b>redirectLink</b><br>Test class: com.saucedemo.swaglabs.testCases.RedirectLink</td>
 <td></td>
-<td>54</td>
-<td>com.saucedemo.swaglabs.testCases.RedirectLink@1dd92fe2</td></tr>
+<td>51</td>
+<td>com.saucedemo.swaglabs.testCases.RedirectLink@642a7222</td></tr>
 </table><p>
 </body>
 </html>

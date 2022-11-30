@@ -42,6 +42,7 @@ com\saucedemo\swaglabs\testCases\DragAndDrop.class
 com\saucedemo\swaglabs\pages\TheInternet.class
 com\saucedemo\swaglabs\pages\JavaScriptAlertsPage.class
 com\saucedemo\swaglabs\testCases\FileUpload.class
+com\saucedemo\swaglabs\testCases\ScrollInACertainSpace.class
 com\saucedemo\swaglabs\pages\FramesPages.class
 com\saucedemo\swaglabs\pages\BasePage.class
 com\saucedemo\swaglabs\pages\Basic_auth.class
