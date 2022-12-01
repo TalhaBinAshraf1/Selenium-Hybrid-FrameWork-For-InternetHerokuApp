@@ -1,5 +1,6 @@
 package com.saucedemo.swaglabs.testCases;
 
+import com.saucedemo.swaglabs.configuretion.BaseClass;
 import com.saucedemo.swaglabs.pages.DynamicContentPages;
 import com.saucedemo.swaglabs.pages.TheInternet;
 import com.saucedemo.swaglabs.utilities.Data;
@@ -10,7 +11,7 @@ import org.testng.annotations.Test;
 
 import java.util.List;
 
-public class DynamicContent extends BaseClass{
+public class DynamicContent extends BaseClass {
     @Test
     public void dynamicContent(){
         TheInternet ti =new TheInternet(driver);

@@ -1,5 +1,6 @@
 package com.saucedemo.swaglabs.testCases;
 
+import com.saucedemo.swaglabs.configuretion.BaseClass;
 import com.saucedemo.swaglabs.pages.FileDownloadPage;
 import com.saucedemo.swaglabs.pages.TheInternet;
 import com.saucedemo.swaglabs.utilities.Data;
@@ -11,7 +12,7 @@ import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.io.File;
 
-public class FileDownload extends BaseClass{
+public class FileDownload extends BaseClass {
     @Test
     public void fileDownload() throws AWTException {
 

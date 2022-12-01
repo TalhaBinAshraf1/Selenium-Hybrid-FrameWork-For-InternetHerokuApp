@@ -1,10 +1,10 @@
 package com.saucedemo.swaglabs.pages;
-import org.openqa.selenium.By;
+import com.saucedemo.swaglabs.configuretion.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class TheInternet extends BasePage{
+public class TheInternet extends BasePage {
     public TheInternet(WebDriver driver) {
         super(driver);
     }
@@ -26,6 +26,7 @@ public class TheInternet extends BasePage{
     public WebElement abTesting;
     public WebElement getAbTesting(){
         return abTesting;
+
     }
 
     // AddRemoveElements

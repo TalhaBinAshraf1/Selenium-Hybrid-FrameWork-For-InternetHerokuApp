@@ -1,4 +1,4 @@
-package com.saucedemo.swaglabs.pages;
+package com.saucedemo.swaglabs.configuretion;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;

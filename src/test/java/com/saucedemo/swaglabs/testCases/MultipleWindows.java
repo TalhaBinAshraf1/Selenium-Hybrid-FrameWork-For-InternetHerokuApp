@@ -1,5 +1,6 @@
 package com.saucedemo.swaglabs.testCases;
 
+import com.saucedemo.swaglabs.configuretion.BaseClass;
 import com.saucedemo.swaglabs.pages.MultipleWindowsPage;
 import com.saucedemo.swaglabs.pages.NewWindowsPage;
 import com.saucedemo.swaglabs.pages.TheInternet;
@@ -10,7 +11,7 @@ import org.testng.annotations.Test;
 import java.util.Iterator;
 import java.util.Set;
 
-public class MultipleWindows extends BaseClass{
+public class MultipleWindows extends BaseClass {
     @Test
     public void multipleWindows(){
 

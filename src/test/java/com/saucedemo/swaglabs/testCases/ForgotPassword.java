@@ -1,12 +1,13 @@
 package com.saucedemo.swaglabs.testCases;
 
+import com.saucedemo.swaglabs.configuretion.BaseClass;
 import com.saucedemo.swaglabs.pages.ForgotPasswordPage;
 import com.saucedemo.swaglabs.pages.TheInternet;
 import com.saucedemo.swaglabs.utilities.Data;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class ForgotPassword extends BaseClass{
+public class ForgotPassword extends BaseClass {
     @Test
     public void forgotPassword (){
 

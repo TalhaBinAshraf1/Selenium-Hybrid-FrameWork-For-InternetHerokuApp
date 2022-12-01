@@ -1,4 +1,5 @@
 package com.saucedemo.swaglabs.testCases;
+import com.saucedemo.swaglabs.configuretion.BaseClass;
 import com.saucedemo.swaglabs.pages.AbTesting;
 import com.saucedemo.swaglabs.pages.TheInternet;
 import com.saucedemo.swaglabs.utilities.Data;
@@ -11,7 +12,6 @@ public class ABTesting extends BaseClass {
     public  void  aBTesting()  {
         TheInternet ti = new TheInternet(driver); // to use this class in java we have to create new instance
         AbTesting at  = new AbTesting(driver);
-        sleepTest(2000);
 
         //TC-1 HOME URL Validation
         String baseLink = driver.getCurrentUrl();

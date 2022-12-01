@@ -1,12 +1,13 @@
 package com.saucedemo.swaglabs.testCases;
 
+import com.saucedemo.swaglabs.configuretion.BaseClass;
 import com.saucedemo.swaglabs.pages.FormAuthPage;
 import com.saucedemo.swaglabs.pages.TheInternet;
 import com.saucedemo.swaglabs.utilities.Data;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class FormAuth extends BaseClass{
+public class FormAuth extends BaseClass {
     @Test
     public void formAuth(){
         TheInternet ti = new TheInternet (driver);

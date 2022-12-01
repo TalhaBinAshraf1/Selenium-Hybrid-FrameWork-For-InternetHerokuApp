@@ -1,4 +1,4 @@
-package com.saucedemo.swaglabs.testCases;
+package com.saucedemo.swaglabs.configuretion;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;

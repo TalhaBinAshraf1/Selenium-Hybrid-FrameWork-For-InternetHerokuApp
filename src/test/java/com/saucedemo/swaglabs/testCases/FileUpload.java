@@ -1,5 +1,6 @@
 package com.saucedemo.swaglabs.testCases;
 
+import com.saucedemo.swaglabs.configuretion.BaseClass;
 import com.saucedemo.swaglabs.pages.FileUploadCorrespondingPage;
 import com.saucedemo.swaglabs.pages.FileUploadPage;
 import com.saucedemo.swaglabs.pages.TheInternet;
@@ -13,7 +14,7 @@ import java.awt.*;
 import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
 
-public class FileUpload extends BaseClass{
+public class FileUpload extends BaseClass {
     @Test
     public void fileUpload () throws AWTException {
 

@@ -1,12 +1,13 @@
 package com.saucedemo.swaglabs.testCases;
 
+import com.saucedemo.swaglabs.configuretion.BaseClass;
 import com.saucedemo.swaglabs.pages.Disappearing_elements;
 import com.saucedemo.swaglabs.pages.TheInternet;
 import com.saucedemo.swaglabs.utilities.Data;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class DisappearingElements extends BaseClass{
+public class DisappearingElements extends BaseClass {
     @Test
     public void disappearingElements(){
         TheInternet ti = new TheInternet(driver);

@@ -1,11 +1,11 @@
 package com.saucedemo.swaglabs.pages;
 
-import org.openqa.selenium.By;
+import com.saucedemo.swaglabs.configuretion.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class Add_remove_elements extends BasePage{
+public class Add_remove_elements extends BasePage {
     public Add_remove_elements(WebDriver driver) {
         super(driver);
     }
