@@ -1,10 +1,11 @@
 package com.saucedemo.swaglabs.pages;
 
+import com.saucedemo.swaglabs.configuretion.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class FormAuthPage extends BasePage{
+public class FormAuthPage extends BasePage {
     public FormAuthPage(WebDriver driver) {
         super(driver);
     }

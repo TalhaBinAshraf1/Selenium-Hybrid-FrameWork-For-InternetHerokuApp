@@ -1,5 +1,6 @@
 package com.saucedemo.swaglabs.testCases;
 
+import com.saucedemo.swaglabs.configuretion.BaseClass;
 import com.saucedemo.swaglabs.pages.RedirectLinkPages;
 import com.saucedemo.swaglabs.pages.StatusCodePage;
 import com.saucedemo.swaglabs.pages.TheInternet;

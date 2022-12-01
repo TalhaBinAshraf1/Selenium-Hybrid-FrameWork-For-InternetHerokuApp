@@ -5,59 +5,77 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="871670f7-1070-4162-9439-2f57ab8876e2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/AbTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/AbTesting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/utilities/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/utilities/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/swaglabs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/swaglabs.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/saucedemo/swaglabs/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/saucedemo/swaglabs/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Regression/UITest.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Regression/UITest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Regression/UITest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Regression/UITest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Regression/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Regression/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.AddRemoveElements.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.AddRemoveElements.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.BasicAuth.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.BasicAuth.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.BrokenImage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.BrokenImage.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.Checkboxes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.Checkboxes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.ContextMenu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.ContextMenu.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.DigestAuthentication.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.DigestAuthentication.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.DisappearingElements.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.DisappearingElements.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.DropDown.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.DropDown.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.DynamicContent.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.DynamicContent.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.DynamicControl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.DynamicControl.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.ForgotPassword.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.ForgotPassword.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.FormAuth.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.FormAuth.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.FullPageScreenShot.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.FullPageScreenShot.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.HorizontalSlider.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.HorizontalSlider.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.Iframe.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.Iframe.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.InfiniteScroll.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.InfiniteScroll.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.Input.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.Input.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.JavaScriptAlert.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.JavaScriptAlert.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.MouseHover.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.MouseHover.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.MultipleWindows.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.MultipleWindows.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.NestedFrames.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.NestedFrames.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.NotificationMessage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.NotificationMessage.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.RedirectLink.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.RedirectLink.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.ScreenshotOfAnElement.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.ScreenshotOfAnElement.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.ScreenshotOfWebpage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.ScreenshotOfWebpage.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Regression/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Regression/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Regression/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Regression/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Regression/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Regression/testng.xml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Regression/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Regression/toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/saucedemo/swaglabs/basicJava/FirstClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/saucedemo/swaglabs/basicJava/FirstClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/saucedemo/swaglabs/basicJava/ResponsiveWebTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/saucedemo/swaglabs/basicJava/ResponsiveWebTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/Add_remove_elements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/Add_remove_elements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/configuretion/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/Basic_auth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/Basic_auth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/BrokenImagePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/BrokenImagePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/ChallengingDOM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/ChallengingDOM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/CheckBoxesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/CheckBoxesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/ContextMenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/ContextMenuPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/Digest_auth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/Digest_auth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/Disappearing_elements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/Disappearing_elements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/Drag_and_drop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/Drag_and_drop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/Dropdown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/Dropdown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/DynamicContentPages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/DynamicContentPages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/DynamicControlsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/DynamicControlsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/FileDownloadPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/FileDownloadPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/FileUploadCorrespondingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/FileUploadCorrespondingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/FileUploadPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/FileUploadPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/ForgotPasswordPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/ForgotPasswordPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/FormAuthPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/FormAuthPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/FramesIframePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/FramesIframePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/FramesNestedFramesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/FramesNestedFramesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/FramesPages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/FramesPages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/HorizontalSliderPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/HorizontalSliderPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/HoverPages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/HoverPages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/InfiniteScrollPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/InfiniteScrollPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/InputsPages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/InputsPages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/JavaScriptAlertsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/JavaScriptAlertsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/LogInSignUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/LogInSignUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/MultipleWindowsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/MultipleWindowsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/NewWindowsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/NewWindowsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/NotificationMessagesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/NotificationMessagesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/RedirectLinkPages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/RedirectLinkPages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/StatusCodePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/StatusCodePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/TheInternet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/TheInternet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/ABTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/ABTesting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/AddRemoveElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/AddRemoveElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/configuretion/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/BasicAuth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/BasicAuth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/BrokenImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/BrokenImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/Checkboxes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/Checkboxes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/ContextMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/ContextMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/DigestAuthentication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/DigestAuthentication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/DisappearingElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/DisappearingElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/DragAndDrop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/DragAndDrop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/DropDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/DropDown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/DynamicContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/DynamicContent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/DynamicControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/DynamicControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/FileDownload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/FileDownload.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/FileUpload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/FileUpload.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/ForgotPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/ForgotPassword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/FormAuth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/FormAuth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/FullPageScreenShot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/FullPageScreenShot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/HorizontalSlider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/HorizontalSlider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/Iframe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/Iframe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/InfiniteScroll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/InfiniteScroll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/Input.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/JavaScriptAlert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/JavaScriptAlert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/MouseHover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/MouseHover.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/MultipleWindows.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/MultipleWindows.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/NestedFrames.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/NestedFrames.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/NotificationMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/NotificationMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/RedirectLink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/RedirectLink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/ScreenshotOfAnElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/ScreenshotOfAnElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/ScreenshotOfWebpage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/ScreenshotOfWebpage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/ScrollInACertainSpace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/ScrollInACertainSpace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/UserAbleToClickOnCreateNewAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/UserAbleToClickOnCreateNewAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/UserAbleToClickOnForgetPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/UserAbleToClickOnForgetPassword.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/saucedemo/swaglabs/pages/AbTesting.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/saucedemo/swaglabs/pages/AbTesting.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/saucedemo/swaglabs/pages/Add_remove_elements.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/saucedemo/swaglabs/pages/Add_remove_elements.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/saucedemo/swaglabs/pages/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/saucedemo/swaglabs/pages/BasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/saucedemo/swaglabs/pages/BasePage.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/saucedemo/swaglabs/pages/Basic_auth.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/saucedemo/swaglabs/pages/Basic_auth.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/saucedemo/swaglabs/pages/BrokenImagePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/saucedemo/swaglabs/pages/BrokenImagePage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/saucedemo/swaglabs/pages/ChallengingDOM.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/saucedemo/swaglabs/pages/ChallengingDOM.class" afterDir="false" />
@@ -91,7 +109,7 @@
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/saucedemo/swaglabs/pages/TheInternet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/saucedemo/swaglabs/pages/TheInternet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/saucedemo/swaglabs/testCases/ABTesting.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/saucedemo/swaglabs/testCases/ABTesting.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/saucedemo/swaglabs/testCases/AddRemoveElements.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/saucedemo/swaglabs/testCases/AddRemoveElements.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/saucedemo/swaglabs/testCases/BaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/saucedemo/swaglabs/testCases/BaseClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/saucedemo/swaglabs/testCases/BaseClass.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/saucedemo/swaglabs/testCases/BasicAuth.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/saucedemo/swaglabs/testCases/BasicAuth.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/saucedemo/swaglabs/testCases/BrokenImage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/saucedemo/swaglabs/testCases/BrokenImage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/saucedemo/swaglabs/testCases/Checkboxes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/saucedemo/swaglabs/testCases/Checkboxes.class" afterDir="false" />
@@ -119,10 +137,9 @@
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/saucedemo/swaglabs/testCases/RedirectLink.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/saucedemo/swaglabs/testCases/RedirectLink.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/saucedemo/swaglabs/testCases/ScreenshotOfAnElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/saucedemo/swaglabs/testCases/ScreenshotOfAnElement.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/saucedemo/swaglabs/testCases/ScreenshotOfWebpage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/saucedemo/swaglabs/testCases/ScreenshotOfWebpage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/saucedemo/swaglabs/testCases/ScrollInACertainSpace.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/saucedemo/swaglabs/testCases/ScrollInACertainSpace.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/saucedemo/swaglabs/testCases/UserAbleToClickOnCreateNewAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/saucedemo/swaglabs/testCases/UserAbleToClickOnCreateNewAccount.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/saucedemo/swaglabs/testCases/UserAbleToClickOnForgetPassword.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/saucedemo/swaglabs/testCases/UserAbleToClickOnForgetPassword.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/saucedemo/swaglabs/utilities/Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/saucedemo/swaglabs/utilities/Data.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testngSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testngSuite.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,12 +195,25 @@
       <recent name="com.saucedemo.swaglabs.testCases" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AddRemoveElements">
+  <component name="RunManager" selected="Application.testRun">
+    <configuration name="testRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.saucedemo.swaglabs.basicCoding.testRun" />
+      <module name="swaglabs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.saucedemo.swaglabs.basicCoding.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ABTesting" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="swaglabs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.saucedemo.swaglabs.testCases.*" />
+          <option name="PATTERN" value="com.saucedemo.swaglabs.configuretion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,7 +230,7 @@
       <module name="swaglabs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.saucedemo.swaglabs.testCases.*" />
+          <option name="PATTERN" value="com.saucedemo.swaglabs.configuretion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,7 +247,7 @@
       <module name="swaglabs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.saucedemo.swaglabs.testCases.*" />
+          <option name="PATTERN" value="com.saucedemo.swaglabs.configuretion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -225,23 +255,6 @@
       <option name="MAIN_CLASS_NAME" value="com.saucedemo.swaglabs.testCases.AddRemoveElements" />
       <option name="METHOD_NAME" value="addRemoveElements" />
       <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Checkboxes" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="swaglabs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.saucedemo.swaglabs.testCases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.saucedemo.swaglabs.testCases" />
-      <option name="MAIN_CLASS_NAME" value="com.saucedemo.swaglabs.testCases.Checkboxes" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -260,11 +273,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.testRun" />
+        <item itemvalue="TestNG.ABTesting" />
         <item itemvalue="TestNG.AddRemoveElements" />
         <item itemvalue="TestNG.AddRemoveElements.addRemoveElements" />
         <item itemvalue="TestNG.D:/Talha/SQA/Github/seleniumHybridFrameWorkProject/testngSuite.xml" />
-        <item itemvalue="TestNG.Checkboxes" />
-        <item itemvalue="TestNG.ABTesting" />
       </list>
     </recent_temporary>
   </component>

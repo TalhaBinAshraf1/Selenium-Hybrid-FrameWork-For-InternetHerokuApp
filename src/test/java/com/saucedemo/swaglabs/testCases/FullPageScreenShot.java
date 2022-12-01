@@ -1,5 +1,6 @@
 package com.saucedemo.swaglabs.testCases;
 
+import com.saucedemo.swaglabs.configuretion.BaseClass;
 import org.testng.annotations.Test;
 import ru.yandex.qatools.ashot.AShot;
 import ru.yandex.qatools.ashot.Screenshot;
@@ -9,7 +10,7 @@ import javax.imageio.ImageIO;
 import java.io.File;
 import java.io.IOException;
 
-public class FullPageScreenShot extends BaseClass{
+public class FullPageScreenShot extends BaseClass {
 
     @Test
     public void fullPageScreenShot() throws InterruptedException, IOException {

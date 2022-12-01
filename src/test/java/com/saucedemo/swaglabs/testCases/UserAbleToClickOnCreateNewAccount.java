@@ -1,4 +1,5 @@
 package com.saucedemo.swaglabs.testCases;
+import com.saucedemo.swaglabs.configuretion.BaseClass;
 import com.saucedemo.swaglabs.pages.LogInSignUp;
 import com.saucedemo.swaglabs.utilities.Data;
 import org.testng.Assert;

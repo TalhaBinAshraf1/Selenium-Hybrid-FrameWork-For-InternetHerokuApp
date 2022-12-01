@@ -1,11 +1,12 @@
 package com.saucedemo.swaglabs.testCases;
+import com.saucedemo.swaglabs.configuretion.BaseClass;
 import com.saucedemo.swaglabs.pages.Basic_auth;
 import com.saucedemo.swaglabs.pages.TheInternet;
 import com.saucedemo.swaglabs.utilities.Data;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class BasicAuth extends BaseClass{
+public class BasicAuth extends BaseClass {
     @Test
     public  void  basicAuth ()
     {

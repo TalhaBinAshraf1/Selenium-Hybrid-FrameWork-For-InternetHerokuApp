@@ -1,11 +1,11 @@
 package com.saucedemo.swaglabs.pages;
 
-import org.openqa.selenium.By;
+import com.saucedemo.swaglabs.configuretion.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class Basic_auth extends BasePage{
+public class Basic_auth extends BasePage {
     public Basic_auth(WebDriver driver) {
         super(driver);
     }

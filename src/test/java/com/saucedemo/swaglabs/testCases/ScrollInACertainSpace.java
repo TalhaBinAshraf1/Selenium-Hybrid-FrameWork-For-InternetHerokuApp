@@ -1,5 +1,6 @@
 package com.saucedemo.swaglabs.testCases;
 
+import com.saucedemo.swaglabs.configuretion.BaseClass;
 import org.openqa.selenium.JavascriptExecutor;
 import org.testng.annotations.Test;
 

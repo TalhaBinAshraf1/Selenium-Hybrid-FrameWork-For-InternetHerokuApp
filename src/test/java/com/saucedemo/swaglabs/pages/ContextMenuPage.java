@@ -1,10 +1,11 @@
 package com.saucedemo.swaglabs.pages;
 
+import com.saucedemo.swaglabs.configuretion.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class ContextMenuPage extends BasePage{
+public class ContextMenuPage extends BasePage {
     public ContextMenuPage(WebDriver driver) {
         super(driver);
     }

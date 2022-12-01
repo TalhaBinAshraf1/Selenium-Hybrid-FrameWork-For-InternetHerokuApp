@@ -1,10 +1,11 @@
 package com.saucedemo.swaglabs.pages;
 
+import com.saucedemo.swaglabs.configuretion.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class Disappearing_elements extends BasePage{
+public class Disappearing_elements extends BasePage {
     public Disappearing_elements(WebDriver driver) {
         super(driver);
     }

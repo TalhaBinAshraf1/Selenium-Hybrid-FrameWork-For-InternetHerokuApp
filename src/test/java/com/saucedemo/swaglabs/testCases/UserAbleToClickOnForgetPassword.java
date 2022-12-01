@@ -1,7 +1,7 @@
 package com.saucedemo.swaglabs.testCases;
+import com.saucedemo.swaglabs.configuretion.BaseClass;
 import com.saucedemo.swaglabs.pages.ForgotPasswordPage;
 import com.saucedemo.swaglabs.pages.LogInSignUp;
-import com.saucedemo.swaglabs.utilities.Data;
 import org.testng.annotations.Test;
 public class UserAbleToClickOnForgetPassword extends BaseClass {
     @Test (enabled = true)

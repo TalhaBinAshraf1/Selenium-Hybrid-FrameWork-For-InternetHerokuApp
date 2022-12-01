@@ -1,6 +1,6 @@
 package com.saucedemo.swaglabs.testCases;
 
-import com.saucedemo.swaglabs.utilities.Data;
+import com.saucedemo.swaglabs.configuretion.BaseClass;
 import org.openqa.selenium.*;
 import org.testng.annotations.Test;
 import org.apache.commons.io.FileUtils;
@@ -9,7 +9,7 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 
-public class ScreenshotOfAnElement extends BaseClass{
+public class ScreenshotOfAnElement extends BaseClass {
     @Test
     public void screenshotOfAnElement() throws IOException {
 
