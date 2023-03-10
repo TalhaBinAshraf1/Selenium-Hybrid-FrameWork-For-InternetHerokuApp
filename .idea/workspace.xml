@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="871670f7-1070-4162-9439-2f57ab8876e2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/ScrollInACertainSpace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/ScrollInACertainSpace.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/saucedemo/swaglabs/basicCoding/testRun.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/saucedemo/swaglabs/basicCoding/testRun.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +45,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "E:/Github/test/TestProject-/documentValidation"
+    "last_opened_file_path": "E:/Github/BD SQA JOB/brain Station/BS-Skill-Assesment/sharebus",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
   <component name="RecentsManager">
