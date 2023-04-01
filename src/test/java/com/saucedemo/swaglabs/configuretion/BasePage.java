@@ -13,7 +13,7 @@ public class BasePage {
     // Creating the constructor and it will be the same name of the class name.
     // This part is for Driver
     public BasePage(WebDriver driver){
-        this.driver =driver; // For calling the constructor as a global declaration.
+        this.driver =driver; // For calling the constructor as a global declaration. USE "This"
         this.inItPage();    // Also called the below methode , because we use the constructor other pages
     }
     // This part is for Web Element. This methode is initialize web element in every page.
