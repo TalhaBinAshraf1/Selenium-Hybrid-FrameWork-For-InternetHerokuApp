@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="871670f7-1070-4162-9439-2f57ab8876e2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/configuretion/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/configuretion/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/saucedemo/swaglabs/configuretion/BaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/saucedemo/swaglabs/configuretion/BaseClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/saucedemo/swaglabs/testCases/ScrollInACertainSpace.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/saucedemo/swaglabs/testCases/ScrollInACertainSpace.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,14 +44,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "E:/Github/BD SQA JOB/brain Station/BS-Skill-Assesment/sharebus",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Github/automationexerciseSeleniumE2E(Allure)/selenium&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.saucedemo.swaglabs.testCases" />
@@ -62,7 +65,7 @@
       <recent name="com.saucedemo.swaglabs.testCases" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestClass">
+  <component name="RunManager" selected="TestNG.AddRemoveElements">
     <configuration name="testRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.saucedemo.swaglabs.basicCoding.testRun" />
       <module name="swaglabs" />
@@ -147,10 +150,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AddRemoveElements" />
         <item itemvalue="TestNG.TestClass" />
         <item itemvalue="Application.testRun" />
         <item itemvalue="TestNG.ABTesting" />
-        <item itemvalue="TestNG.AddRemoveElements" />
         <item itemvalue="TestNG.AddRemoveElements.addRemoveElements" />
       </list>
     </recent_temporary>
