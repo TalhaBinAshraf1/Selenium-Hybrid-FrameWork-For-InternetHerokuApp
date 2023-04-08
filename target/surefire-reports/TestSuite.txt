@@ -1,16 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 25, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 611.601 sec <<< FAILURE! - in TestSuite
-screenshotOfWebpage(com.saucedemo.swaglabs.testCases.ScreenshotOfWebpage)  Time elapsed: 0.424 sec  <<< FAILURE!
-java.io.IOException: Destination 'G:\Talha\SQA\Github\sqabdautomation\Java\Talha\swaglabs\Images' directory cannot be created
-	at com.saucedemo.swaglabs.testCases.ScreenshotOfWebpage.screenshotOfWebpage(ScreenshotOfWebpage.java:20)
-
-screenshotOfAnElement(com.saucedemo.swaglabs.testCases.ScreenshotOfAnElement)  Time elapsed: 0.181 sec  <<< FAILURE!
-java.io.IOException: Destination 'G:\Talha\SQA\Github\sqabdautomation\Java\Talha\swaglabs\Images' directory cannot be created
-	at com.saucedemo.swaglabs.testCases.ScreenshotOfAnElement.screenshotOfAnElement(ScreenshotOfAnElement.java:37)
-
-fullPageScreenShot(com.saucedemo.swaglabs.testCases.FullPageScreenShot)  Time elapsed: 4.268 sec  <<< FAILURE!
-javax.imageio.IIOException: Can't create an ImageOutputStream!
-	at com.saucedemo.swaglabs.testCases.FullPageScreenShot.fullPageScreenShot(FullPageScreenShot.java:26)
-
+Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 120.583 sec - in TestSuite

@@ -1,8 +1,7 @@
 
 <suite name = "Regression" verbose="1">
-    <test name = "UITest">
+    <test name="Test1">
         <classes>
-
             <class name ="com.saucedemo.swaglabs.testCases.UserAbleToClickOnCreateNewAccount">
                 <methods>
                     <exclude name="userAbleToClickOnCreateNewAccount" />
@@ -20,6 +19,7 @@
                     <exclude name="aBTesting" />
                 </methods>
             </class>
+
 
             <class name ="com.saucedemo.swaglabs.testCases.AddRemoveElements">
                 <methods>
@@ -174,19 +174,19 @@
 
             <class name ="com.saucedemo.swaglabs.testCases.ScreenshotOfWebpage">
                 <methods>
-                    <include name="screenshotOfWebpage" />
+                    <exclude name="screenshotOfWebpage" />
                 </methods>
             </class>
 
             <class name ="com.saucedemo.swaglabs.testCases.ScreenshotOfAnElement">
                 <methods>
-                    <include name="screenshotOfAnElement" />
+                    <exclude name="screenshotOfAnElement" />
                 </methods>
             </class>
 
             <class name ="com.saucedemo.swaglabs.testCases.FullPageScreenShot">
                 <methods>
-                    <include name="fullPageScreenShot" />
+                    <exclude name="fullPageScreenShot" />
                 </methods>
             </class>
 

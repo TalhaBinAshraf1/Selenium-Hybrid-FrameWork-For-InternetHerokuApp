@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="611.601" tests="25" errors="0" skipped="0" failures="3">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="120.583" tests="22" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.14+8-LTS-263"/>
@@ -44,7 +44,7 @@
     <property name="java.class.path" value="C:\Program Files\apache-maven-3.8.6\boot\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="11"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
     <property name="java.home" value="C:\Program Files\jdk-11.0.14"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -64,106 +64,26 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="addRemoveElements" classname="com.saucedemo.swaglabs.testCases.AddRemoveElements" time="20.546"/>
-  <testcase name="dropDown" classname="com.saucedemo.swaglabs.testCases.DropDown" time="25.599"/>
-  <testcase name="forgotPassword" classname="com.saucedemo.swaglabs.testCases.ForgotPassword" time="12.879"/>
-  <testcase name="basicAuth" classname="com.saucedemo.swaglabs.testCases.BasicAuth" time="11.172"/>
-  <testcase name="dynamicContent" classname="com.saucedemo.swaglabs.testCases.DynamicContent" time="11.948"/>
-  <testcase name="formAuth" classname="com.saucedemo.swaglabs.testCases.FormAuth" time="21.688"/>
-  <testcase name="brokenImage" classname="com.saucedemo.swaglabs.testCases.BrokenImage" time="15.37"/>
-  <testcase name="dynamicControl" classname="com.saucedemo.swaglabs.testCases.DynamicControl" time="15.7"/>
-  <testcase name="horizontalSlider" classname="com.saucedemo.swaglabs.testCases.HorizontalSlider" time="7.786"/>
-  <testcase name="checkboxes" classname="com.saucedemo.swaglabs.testCases.Checkboxes" time="9.484"/>
-  <testcase name="iframe" classname="com.saucedemo.swaglabs.testCases.Iframe" time="48.342"/>
-  <testcase name="contextMenu" classname="com.saucedemo.swaglabs.testCases.ContextMenu" time="10.58"/>
-  <testcase name="infiniteScroll" classname="com.saucedemo.swaglabs.testCases.InfiniteScroll" time="11.703"/>
-  <testcase name="digestAuthentication" classname="com.saucedemo.swaglabs.testCases.DigestAuthentication" time="8.76"/>
-  <testcase name="input" classname="com.saucedemo.swaglabs.testCases.Input" time="10.736"/>
-  <testcase name="disappearingElements" classname="com.saucedemo.swaglabs.testCases.DisappearingElements" time="26.242"/>
-  <testcase name="javaScriptAlert" classname="com.saucedemo.swaglabs.testCases.JavaScriptAlert" time="27.917"/>
-  <testcase name="mouseHover" classname="com.saucedemo.swaglabs.testCases.MouseHover" time="19.06"/>
-  <testcase name="multipleWindows" classname="com.saucedemo.swaglabs.testCases.MultipleWindows" time="18.786"/>
-  <testcase name="nestedFrames" classname="com.saucedemo.swaglabs.testCases.NestedFrames" time="18.476"/>
-  <testcase name="notificationMessage" classname="com.saucedemo.swaglabs.testCases.NotificationMessage" time="19.285"/>
-  <testcase name="redirectLink" classname="com.saucedemo.swaglabs.testCases.RedirectLink" time="51.39"/>
-  <testcase name="screenshotOfWebpage" classname="com.saucedemo.swaglabs.testCases.ScreenshotOfWebpage" time="0.424">
-    <failure message="Destination &apos;G:\Talha\SQA\Github\sqabdautomation\Java\Talha\swaglabs\Images&apos; directory cannot be created" type="java.io.IOException">java.io.IOException: Destination 'G:\Talha\SQA\Github\sqabdautomation\Java\Talha\swaglabs\Images' directory cannot be created
-	at com.saucedemo.swaglabs.testCases.ScreenshotOfWebpage.screenshotOfWebpage(ScreenshotOfWebpage.java:20)
-</failure>
-    <system-out><![CDATA[ 
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 36625
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Oct 21, 2022 11:16:54 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="screenshotOfAnElement" classname="com.saucedemo.swaglabs.testCases.ScreenshotOfAnElement" time="0.181">
-    <failure message="Destination &apos;G:\Talha\SQA\Github\sqabdautomation\Java\Talha\swaglabs\Images&apos; directory cannot be created" type="java.io.IOException">java.io.IOException: Destination 'G:\Talha\SQA\Github\sqabdautomation\Java\Talha\swaglabs\Images' directory cannot be created
-	at com.saucedemo.swaglabs.testCases.ScreenshotOfAnElement.screenshotOfAnElement(ScreenshotOfAnElement.java:37)
-</failure>
-    <system-out><![CDATA[ 
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 63234
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Oct 21, 2022 11:17:01 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="fullPageScreenShot" classname="com.saucedemo.swaglabs.testCases.FullPageScreenShot" time="4.268">
-    <failure message="Can&apos;t create an ImageOutputStream!" type="javax.imageio.IIOException">javax.imageio.IIOException: Can't create an ImageOutputStream!
-	at com.saucedemo.swaglabs.testCases.FullPageScreenShot.fullPageScreenShot(FullPageScreenShot.java:26)
-</failure>
-    <system-out><![CDATA[ 
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 47177
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Oct 21, 2022 11:17:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-java.io.FileNotFoundException: G:\Talha\SQA\Github\sqabdautomation\Java\Talha\swaglabs\Images\Screenshot12.png (The system cannot find the path specified)
-	at java.base/java.io.RandomAccessFile.open0(Native Method)
-	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:346)
-	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:260)
-	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:215)
-	at java.desktop/javax.imageio.stream.FileImageOutputStream.<init>(FileImageOutputStream.java:69)
-	at java.desktop/com.sun.imageio.spi.FileImageOutputStreamSpi.createOutputStreamInstance(FileImageOutputStreamSpi.java:55)
-	at java.desktop/javax.imageio.ImageIO.createImageOutputStream(ImageIO.java:419)
-	at java.desktop/javax.imageio.ImageIO.write(ImageIO.java:1549)
-	at com.saucedemo.swaglabs.testCases.FullPageScreenShot.fullPageScreenShot(FullPageScreenShot.java:26)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
-]]></system-err>
-  </testcase>
+  <testcase name="digestAuthentication" classname="com.saucedemo.swaglabs.testCases.DigestAuthentication" time="3.786"/>
+  <testcase name="checkboxes" classname="com.saucedemo.swaglabs.testCases.Checkboxes" time="4.72"/>
+  <testcase name="contextMenu" classname="com.saucedemo.swaglabs.testCases.ContextMenu" time="5.004"/>
+  <testcase name="horizontalSlider" classname="com.saucedemo.swaglabs.testCases.HorizontalSlider" time="6.166"/>
+  <testcase name="basicAuth" classname="com.saucedemo.swaglabs.testCases.BasicAuth" time="6.588"/>
+  <testcase name="dynamicContent" classname="com.saucedemo.swaglabs.testCases.DynamicContent" time="7.669"/>
+  <testcase name="infiniteScroll" classname="com.saucedemo.swaglabs.testCases.InfiniteScroll" time="7.725"/>
+  <testcase name="forgotPassword" classname="com.saucedemo.swaglabs.testCases.ForgotPassword" time="9.04"/>
+  <testcase name="brokenImage" classname="com.saucedemo.swaglabs.testCases.BrokenImage" time="14.486"/>
+  <testcase name="dynamicControl" classname="com.saucedemo.swaglabs.testCases.DynamicControl" time="15.823"/>
+  <testcase name="addRemoveElements" classname="com.saucedemo.swaglabs.testCases.AddRemoveElements" time="16.97"/>
+  <testcase name="formAuth" classname="com.saucedemo.swaglabs.testCases.FormAuth" time="20.564"/>
+  <testcase name="dropDown" classname="com.saucedemo.swaglabs.testCases.DropDown" time="20.943"/>
+  <testcase name="disappearingElements" classname="com.saucedemo.swaglabs.testCases.DisappearingElements" time="24.383"/>
+  <testcase name="iframe" classname="com.saucedemo.swaglabs.testCases.Iframe" time="0.535"/>
+  <testcase name="input" classname="com.saucedemo.swaglabs.testCases.Input" time="2.404"/>
+  <testcase name="multipleWindows" classname="com.saucedemo.swaglabs.testCases.MultipleWindows" time="12.673"/>
+  <testcase name="nestedFrames" classname="com.saucedemo.swaglabs.testCases.NestedFrames" time="13.794"/>
+  <testcase name="mouseHover" classname="com.saucedemo.swaglabs.testCases.MouseHover" time="19.08"/>
+  <testcase name="notificationMessage" classname="com.saucedemo.swaglabs.testCases.NotificationMessage" time="26.834"/>
+  <testcase name="javaScriptAlert" classname="com.saucedemo.swaglabs.testCases.JavaScriptAlert" time="32.278"/>
+  <testcase name="redirectLink" classname="com.saucedemo.swaglabs.testCases.RedirectLink" time="43.047"/>
 </testsuite>

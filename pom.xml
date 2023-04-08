@@ -39,6 +39,8 @@
                 <!-- TestNG suite XML files -->
                 <suiteXmlFile>testngSuite.xml</suiteXmlFile>
               </suiteXmlFiles>
+              <parallel>classes</parallel>
+              <threadCount>15</threadCount>
             </configuration>
           </plugin>
         </plugins>
