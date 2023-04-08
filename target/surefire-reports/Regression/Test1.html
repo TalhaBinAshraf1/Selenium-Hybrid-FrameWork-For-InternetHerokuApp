@@ -1,0 +1,189 @@
+<html>
+<head>
+<title>TestNG:  Test1</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test1</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>22/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Apr 09 03:41:51 BDT 2023</td>
+</tr>
+<tr><td>Total time:</td><td>120 seconds (120251 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.saucedemo.swaglabs.testCases.AddRemoveElements.addRemoveElements()'><b>addRemoveElements</b><br>Test class: com.saucedemo.swaglabs.testCases.AddRemoveElements</td>
+<td></td>
+<td>20</td>
+<td>com.saucedemo.swaglabs.testCases.AddRemoveElements@69ee81fc</td></tr>
+<tr>
+<td title='com.saucedemo.swaglabs.testCases.BasicAuth.basicAuth()'><b>basicAuth</b><br>Test class: com.saucedemo.swaglabs.testCases.BasicAuth</td>
+<td></td>
+<td>11</td>
+<td>com.saucedemo.swaglabs.testCases.BasicAuth@6e2aa843</td></tr>
+<tr>
+<td title='com.saucedemo.swaglabs.testCases.BrokenImage.brokenImage()'><b>brokenImage</b><br>Test class: com.saucedemo.swaglabs.testCases.BrokenImage</td>
+<td></td>
+<td>18</td>
+<td>com.saucedemo.swaglabs.testCases.BrokenImage@6f36c2f0</td></tr>
+<tr>
+<td title='com.saucedemo.swaglabs.testCases.Checkboxes.checkboxes()'><b>checkboxes</b><br>Test class: com.saucedemo.swaglabs.testCases.Checkboxes</td>
+<td></td>
+<td>9</td>
+<td>com.saucedemo.swaglabs.testCases.Checkboxes@f58853c</td></tr>
+<tr>
+<td title='com.saucedemo.swaglabs.testCases.ContextMenu.contextMenu()'><b>contextMenu</b><br>Test class: com.saucedemo.swaglabs.testCases.ContextMenu</td>
+<td></td>
+<td>10</td>
+<td>com.saucedemo.swaglabs.testCases.ContextMenu@1224144a</td></tr>
+<tr>
+<td title='com.saucedemo.swaglabs.testCases.DigestAuthentication.digestAuthentication()'><b>digestAuthentication</b><br>Test class: com.saucedemo.swaglabs.testCases.DigestAuthentication</td>
+<td></td>
+<td>8</td>
+<td>com.saucedemo.swaglabs.testCases.DigestAuthentication@29f7cefd</td></tr>
+<tr>
+<td title='com.saucedemo.swaglabs.testCases.DisappearingElements.disappearingElements()'><b>disappearingElements</b><br>Test class: com.saucedemo.swaglabs.testCases.DisappearingElements</td>
+<td></td>
+<td>26</td>
+<td>com.saucedemo.swaglabs.testCases.DisappearingElements@700fb871</td></tr>
+<tr>
+<td title='com.saucedemo.swaglabs.testCases.DropDown.dropDown()'><b>dropDown</b><br>Test class: com.saucedemo.swaglabs.testCases.DropDown</td>
+<td></td>
+<td>25</td>
+<td>com.saucedemo.swaglabs.testCases.DropDown@3b35a229</td></tr>
+<tr>
+<td title='com.saucedemo.swaglabs.testCases.DynamicContent.dynamicContent()'><b>dynamicContent</b><br>Test class: com.saucedemo.swaglabs.testCases.DynamicContent</td>
+<td></td>
+<td>11</td>
+<td>com.saucedemo.swaglabs.testCases.DynamicContent@9816741</td></tr>
+<tr>
+<td title='com.saucedemo.swaglabs.testCases.DynamicControl.dynamicControl()'><b>dynamicControl</b><br>Test class: com.saucedemo.swaglabs.testCases.DynamicControl</td>
+<td></td>
+<td>15</td>
+<td>com.saucedemo.swaglabs.testCases.DynamicControl@1e16c0aa</td></tr>
+<tr>
+<td title='com.saucedemo.swaglabs.testCases.ForgotPassword.forgotPassword()'><b>forgotPassword</b><br>Test class: com.saucedemo.swaglabs.testCases.ForgotPassword</td>
+<td></td>
+<td>12</td>
+<td>com.saucedemo.swaglabs.testCases.ForgotPassword@13d73f29</td></tr>
+<tr>
+<td title='com.saucedemo.swaglabs.testCases.FormAuth.formAuth()'><b>formAuth</b><br>Test class: com.saucedemo.swaglabs.testCases.FormAuth</td>
+<td></td>
+<td>22</td>
+<td>com.saucedemo.swaglabs.testCases.FormAuth@565f390</td></tr>
+<tr>
+<td title='com.saucedemo.swaglabs.testCases.HorizontalSlider.horizontalSlider()'><b>horizontalSlider</b><br>Test class: com.saucedemo.swaglabs.testCases.HorizontalSlider</td>
+<td></td>
+<td>7</td>
+<td>com.saucedemo.swaglabs.testCases.HorizontalSlider@7dc3712</td></tr>
+<tr>
+<td title='com.saucedemo.swaglabs.testCases.Iframe.iframe()'><b>iframe</b><br>Test class: com.saucedemo.swaglabs.testCases.Iframe</td>
+<td></td>
+<td>49</td>
+<td>com.saucedemo.swaglabs.testCases.Iframe@2f67a4d3</td></tr>
+<tr>
+<td title='com.saucedemo.swaglabs.testCases.InfiniteScroll.infiniteScroll()'><b>infiniteScroll</b><br>Test class: com.saucedemo.swaglabs.testCases.InfiniteScroll</td>
+<td></td>
+<td>11</td>
+<td>com.saucedemo.swaglabs.testCases.InfiniteScroll@5e3f861</td></tr>
+<tr>
+<td title='com.saucedemo.swaglabs.testCases.Input.input()'><b>input</b><br>Test class: com.saucedemo.swaglabs.testCases.Input</td>
+<td></td>
+<td>10</td>
+<td>com.saucedemo.swaglabs.testCases.Input@2fb0623e</td></tr>
+<tr>
+<td title='com.saucedemo.swaglabs.testCases.JavaScriptAlert.javaScriptAlert()'><b>javaScriptAlert</b><br>Test class: com.saucedemo.swaglabs.testCases.JavaScriptAlert</td>
+<td></td>
+<td>36</td>
+<td>com.saucedemo.swaglabs.testCases.JavaScriptAlert@49b2a47d</td></tr>
+<tr>
+<td title='com.saucedemo.swaglabs.testCases.MouseHover.mouseHover()'><b>mouseHover</b><br>Test class: com.saucedemo.swaglabs.testCases.MouseHover</td>
+<td></td>
+<td>19</td>
+<td>com.saucedemo.swaglabs.testCases.MouseHover@5be1d0a4</td></tr>
+<tr>
+<td title='com.saucedemo.swaglabs.testCases.MultipleWindows.multipleWindows()'><b>multipleWindows</b><br>Test class: com.saucedemo.swaglabs.testCases.MultipleWindows</td>
+<td></td>
+<td>19</td>
+<td>com.saucedemo.swaglabs.testCases.MultipleWindows@415b0b49</td></tr>
+<tr>
+<td title='com.saucedemo.swaglabs.testCases.NestedFrames.nestedFrames()'><b>nestedFrames</b><br>Test class: com.saucedemo.swaglabs.testCases.NestedFrames</td>
+<td></td>
+<td>18</td>
+<td>com.saucedemo.swaglabs.testCases.NestedFrames@6d5620ce</td></tr>
+<tr>
+<td title='com.saucedemo.swaglabs.testCases.NotificationMessage.notificationMessage()'><b>notificationMessage</b><br>Test class: com.saucedemo.swaglabs.testCases.NotificationMessage</td>
+<td></td>
+<td>27</td>
+<td>com.saucedemo.swaglabs.testCases.NotificationMessage@311bf055</td></tr>
+<tr>
+<td title='com.saucedemo.swaglabs.testCases.RedirectLink.redirectLink()'><b>redirectLink</b><br>Test class: com.saucedemo.swaglabs.testCases.RedirectLink</td>
+<td></td>
+<td>52</td>
+<td>com.saucedemo.swaglabs.testCases.RedirectLink@642a7222</td></tr>
+</table><p>
+</body>
+</html>

@@ -19,12 +19,13 @@ com\saucedemo\swaglabs\pages\FormAuthPage.class
 com\saucedemo\swaglabs\pages\Add_remove_elements.class
 com\saucedemo\swaglabs\testCases\DynamicControl.class
 com\saucedemo\swaglabs\pages\MultipleWindowsPage.class
+com\saucedemo\swaglabs\configuretion\BaseClass.class
 com\saucedemo\swaglabs\pages\DynamicContentPages.class
-com\saucedemo\swaglabs\testCases\BaseClass.class
 com\saucedemo\swaglabs\testCases\Input.class
 com\saucedemo\swaglabs\testCases\Iframe.class
 com\saucedemo\swaglabs\testCases\FullPageScreenShot.class
 com\saucedemo\swaglabs\testCases\UserAbleToClickOnCreateNewAccount.class
+com\saucedemo\swaglabs\configuretion\BasePage.class
 com\saucedemo\swaglabs\testCases\BasicAuth.class
 com\saucedemo\swaglabs\testCases\DigestAuthentication.class
 com\saucedemo\swaglabs\pages\Dropdown.class
@@ -38,13 +39,13 @@ com\saucedemo\swaglabs\pages\HorizontalSliderPage.class
 com\saucedemo\swaglabs\testCases\MultipleWindows.class
 com\saucedemo\swaglabs\pages\StatusCodePage.class
 com\saucedemo\swaglabs\testCases\AddRemoveElements.class
+com\saucedemo\swaglabs\testCases\TestClass.class
 com\saucedemo\swaglabs\testCases\DragAndDrop.class
 com\saucedemo\swaglabs\pages\TheInternet.class
 com\saucedemo\swaglabs\pages\JavaScriptAlertsPage.class
 com\saucedemo\swaglabs\testCases\FileUpload.class
 com\saucedemo\swaglabs\testCases\ScrollInACertainSpace.class
 com\saucedemo\swaglabs\pages\FramesPages.class
-com\saucedemo\swaglabs\pages\BasePage.class
 com\saucedemo\swaglabs\pages\Basic_auth.class
 com\saucedemo\swaglabs\testCases\RedirectLink.class
 com\saucedemo\swaglabs\pages\Drag_and_drop.class
@@ -65,6 +66,7 @@ com\saucedemo\swaglabs\testCases\NotificationMessage.class
 com\saucedemo\swaglabs\pages\ForgotPasswordPage.class
 com\saucedemo\swaglabs\pages\FramesIframePage.class
 com\saucedemo\swaglabs\testCases\ContextMenu.class
+com\saucedemo\swaglabs\basicCoding\testRun.class
 com\saucedemo\swaglabs\pages\CheckBoxesPage.class
 com\saucedemo\swaglabs\basicJava\ResponsiveWebTest.class
 com\saucedemo\swaglabs\pages\Digest_auth.class
