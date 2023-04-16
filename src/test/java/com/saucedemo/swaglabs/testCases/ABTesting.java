@@ -3,12 +3,18 @@ import com.saucedemo.swaglabs.configuretion.BaseClass;
 import com.saucedemo.swaglabs.pages.AbTesting;
 import com.saucedemo.swaglabs.pages.TheInternet;
 import com.saucedemo.swaglabs.utilities.Data;
+import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Story;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class ABTesting extends BaseClass {
 
-    @Test
+    @Test(priority = 0, description = "Test Description Hare")
+    @Severity(SeverityLevel.MINOR)
+    @Story("")
     public  void  aBTesting()  {
         TheInternet ti = new TheInternet(driver); // to use this class in java we have to create new instance
         AbTesting at  = new AbTesting(driver);
