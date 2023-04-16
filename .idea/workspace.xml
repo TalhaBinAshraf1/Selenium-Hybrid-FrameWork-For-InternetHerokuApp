@@ -6,53 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="871670f7-1070-4162-9439-2f57ab8876e2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Regression/UITest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Regression/UITest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Regression/testng-failed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.AddRemoveElements.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.AddRemoveElements.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.BasicAuth.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.BasicAuth.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.BrokenImage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.BrokenImage.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.Checkboxes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.Checkboxes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.ContextMenu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.ContextMenu.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.DigestAuthentication.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.DigestAuthentication.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.DisappearingElements.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.DisappearingElements.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.DropDown.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.DropDown.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.DynamicContent.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.DynamicContent.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.DynamicControl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.DynamicControl.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.ForgotPassword.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.ForgotPassword.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.FormAuth.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.FormAuth.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.FullPageScreenShot.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.HorizontalSlider.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.HorizontalSlider.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.Iframe.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.Iframe.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.InfiniteScroll.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.InfiniteScroll.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.Input.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.Input.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.JavaScriptAlert.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.JavaScriptAlert.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.MouseHover.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.MouseHover.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.MultipleWindows.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.MultipleWindows.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.NestedFrames.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.NestedFrames.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.NotificationMessage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.NotificationMessage.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.RedirectLink.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.RedirectLink.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.ScreenshotOfAnElement.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.saucedemo.swaglabs.testCases.ScreenshotOfWebpage.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Regression/UITest.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Regression/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Regression/classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Regression/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Regression/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Regression/methods-not-run.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Regression/methods-not-run.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Regression/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Regression/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Regression/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Regression/testng.xml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Regression/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Regression/toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/saucedemo/swaglabs/configuretion/BaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/saucedemo/swaglabs/configuretion/BaseClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testngSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testngSuite.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +62,7 @@
       <recent name="com.saucedemo.swaglabs.testCases" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AddRemoveElements">
+  <component name="RunManager" selected="TestNG.ABTesting">
     <configuration name="testRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.saucedemo.swaglabs.basicCoding.testRun" />
       <module name="swaglabs" />
@@ -157,18 +110,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddRemoveElements.addRemoveElements" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FormAuth" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="swaglabs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.saucedemo.swaglabs.configuretion.*" />
+          <option name="PATTERN" value="com.saucedemo.swaglabs.testCases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.saucedemo.swaglabs.testCases" />
-      <option name="MAIN_CLASS_NAME" value="com.saucedemo.swaglabs.testCases.AddRemoveElements" />
-      <option name="METHOD_NAME" value="addRemoveElements" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="com.saucedemo.swaglabs.testCases.FormAuth" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -194,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ABTesting" />
+        <item itemvalue="TestNG.FormAuth" />
         <item itemvalue="TestNG.AddRemoveElements" />
         <item itemvalue="TestNG.TestClass" />
         <item itemvalue="Application.testRun" />
-        <item itemvalue="TestNG.ABTesting" />
-        <item itemvalue="TestNG.AddRemoveElements.addRemoveElements" />
       </list>
     </recent_temporary>
   </component>
