@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="120.583" tests="22" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="121.604" tests="22" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.14+8-LTS-263"/>
@@ -64,26 +64,26 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="digestAuthentication" classname="com.saucedemo.swaglabs.testCases.DigestAuthentication" time="3.786"/>
-  <testcase name="checkboxes" classname="com.saucedemo.swaglabs.testCases.Checkboxes" time="4.72"/>
-  <testcase name="contextMenu" classname="com.saucedemo.swaglabs.testCases.ContextMenu" time="5.004"/>
-  <testcase name="horizontalSlider" classname="com.saucedemo.swaglabs.testCases.HorizontalSlider" time="6.166"/>
-  <testcase name="basicAuth" classname="com.saucedemo.swaglabs.testCases.BasicAuth" time="6.588"/>
-  <testcase name="dynamicContent" classname="com.saucedemo.swaglabs.testCases.DynamicContent" time="7.669"/>
-  <testcase name="infiniteScroll" classname="com.saucedemo.swaglabs.testCases.InfiniteScroll" time="7.725"/>
-  <testcase name="forgotPassword" classname="com.saucedemo.swaglabs.testCases.ForgotPassword" time="9.04"/>
-  <testcase name="brokenImage" classname="com.saucedemo.swaglabs.testCases.BrokenImage" time="14.486"/>
-  <testcase name="dynamicControl" classname="com.saucedemo.swaglabs.testCases.DynamicControl" time="15.823"/>
-  <testcase name="addRemoveElements" classname="com.saucedemo.swaglabs.testCases.AddRemoveElements" time="16.97"/>
-  <testcase name="formAuth" classname="com.saucedemo.swaglabs.testCases.FormAuth" time="20.564"/>
-  <testcase name="dropDown" classname="com.saucedemo.swaglabs.testCases.DropDown" time="20.943"/>
-  <testcase name="disappearingElements" classname="com.saucedemo.swaglabs.testCases.DisappearingElements" time="24.383"/>
-  <testcase name="iframe" classname="com.saucedemo.swaglabs.testCases.Iframe" time="0.535"/>
-  <testcase name="input" classname="com.saucedemo.swaglabs.testCases.Input" time="2.404"/>
-  <testcase name="multipleWindows" classname="com.saucedemo.swaglabs.testCases.MultipleWindows" time="12.673"/>
-  <testcase name="nestedFrames" classname="com.saucedemo.swaglabs.testCases.NestedFrames" time="13.794"/>
-  <testcase name="mouseHover" classname="com.saucedemo.swaglabs.testCases.MouseHover" time="19.08"/>
-  <testcase name="notificationMessage" classname="com.saucedemo.swaglabs.testCases.NotificationMessage" time="26.834"/>
-  <testcase name="javaScriptAlert" classname="com.saucedemo.swaglabs.testCases.JavaScriptAlert" time="32.278"/>
-  <testcase name="redirectLink" classname="com.saucedemo.swaglabs.testCases.RedirectLink" time="43.047"/>
+  <testcase name="horizontalSlider" classname="com.saucedemo.swaglabs.testCases.HorizontalSlider" time="4.115"/>
+  <testcase name="digestAuthentication" classname="com.saucedemo.swaglabs.testCases.DigestAuthentication" time="5.441"/>
+  <testcase name="checkboxes" classname="com.saucedemo.swaglabs.testCases.Checkboxes" time="5.823"/>
+  <testcase name="dynamicContent" classname="com.saucedemo.swaglabs.testCases.DynamicContent" time="6.808"/>
+  <testcase name="forgotPassword" classname="com.saucedemo.swaglabs.testCases.ForgotPassword" time="6.896"/>
+  <testcase name="contextMenu" classname="com.saucedemo.swaglabs.testCases.ContextMenu" time="9.141"/>
+  <testcase name="dynamicControl" classname="com.saucedemo.swaglabs.testCases.DynamicControl" time="11.51"/>
+  <testcase name="basicAuth" classname="com.saucedemo.swaglabs.testCases.BasicAuth" time="11.757"/>
+  <testcase name="brokenImage" classname="com.saucedemo.swaglabs.testCases.BrokenImage" time="15.331"/>
+  <testcase name="addRemoveElements" classname="com.saucedemo.swaglabs.testCases.AddRemoveElements" time="18.12"/>
+  <testcase name="dropDown" classname="com.saucedemo.swaglabs.testCases.DropDown" time="20.44"/>
+  <testcase name="infiniteScroll" classname="com.saucedemo.swaglabs.testCases.InfiniteScroll" time="22.365"/>
+  <testcase name="formAuth" classname="com.saucedemo.swaglabs.testCases.FormAuth" time="24.983"/>
+  <testcase name="disappearingElements" classname="com.saucedemo.swaglabs.testCases.DisappearingElements" time="26.352"/>
+  <testcase name="iframe" classname="com.saucedemo.swaglabs.testCases.Iframe" time="0.683"/>
+  <testcase name="nestedFrames" classname="com.saucedemo.swaglabs.testCases.NestedFrames" time="6.519"/>
+  <testcase name="input" classname="com.saucedemo.swaglabs.testCases.Input" time="10.032"/>
+  <testcase name="notificationMessage" classname="com.saucedemo.swaglabs.testCases.NotificationMessage" time="15.259"/>
+  <testcase name="mouseHover" classname="com.saucedemo.swaglabs.testCases.MouseHover" time="15.353"/>
+  <testcase name="multipleWindows" classname="com.saucedemo.swaglabs.testCases.MultipleWindows" time="18.838"/>
+  <testcase name="javaScriptAlert" classname="com.saucedemo.swaglabs.testCases.JavaScriptAlert" time="27.097"/>
+  <testcase name="redirectLink" classname="com.saucedemo.swaglabs.testCases.RedirectLink" time="48.478"/>
 </testsuite>
