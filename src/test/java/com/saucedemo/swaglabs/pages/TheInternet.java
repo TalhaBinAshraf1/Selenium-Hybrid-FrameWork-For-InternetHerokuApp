@@ -1,5 +1,6 @@
 package com.saucedemo.swaglabs.pages;
 import com.saucedemo.swaglabs.configuretion.BasePage;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -202,6 +203,7 @@ public class TheInternet extends BasePage {
         return redirectLink;
     }
 
-
+    //multiple
+    public By commonLocator1 = By.cssSelector("div#content > div > a");
 
 }
