@@ -5,6 +5,8 @@ import com.saucedemo.swaglabs.pages.TheInternet;
 import com.saucedemo.swaglabs.utilities.Data;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -81,7 +83,7 @@ public class DropDown extends BaseClass {
         sleepTest(3000);
         dd.getSelectOption2().click();
 
-        //TC-6 Drop Down Menu2 Text Validation
+        //TC-6 DropDown Menu2 Text Validation
         sleepTest(2000);
         if(dd.getSelectOption2().isDisplayed()){
             String dropDownList2Text = dd.getSelectOption2().getText();
