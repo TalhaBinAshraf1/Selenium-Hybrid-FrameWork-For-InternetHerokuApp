@@ -6,12 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="871670f7-1070-4162-9439-2f57ab8876e2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/configuretion/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/configuretion/BaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/TheInternet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/pages/TheInternet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/DropDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/swaglabs/testCases/DropDown.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/saucedemo/swaglabs/configuretion/BaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/saucedemo/swaglabs/configuretion/BaseClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/saucedemo/swaglabs/pages/TheInternet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/saucedemo/swaglabs/pages/TheInternet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/saucedemo/swaglabs/testCases/DropDown.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/saucedemo/swaglabs/testCases/DropDown.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +63,42 @@
       <recent name="com.saucedemo.swaglabs.testCases" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LandingPageValidation.landingPageValidation">
+  <component name="RunManager" selected="TestNG.EntryAdValidation">
+    <configuration name="EntryAdValidation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="swaglabs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.saucedemo.swaglabs.testCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.saucedemo.swaglabs.testCases" />
+      <option name="MAIN_CLASS_NAME" value="com.saucedemo.swaglabs.testCases.EntryAdValidation" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EntryAdValidation.entryAdValidation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="swaglabs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.saucedemo.swaglabs.testCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.saucedemo.swaglabs.testCases" />
+      <option name="MAIN_CLASS_NAME" value="com.saucedemo.swaglabs.testCases.EntryAdValidation" />
+      <option name="METHOD_NAME" value="entryAdValidation" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LandingPageValidation.landingPageValidation (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="swaglabs" />
       <extension name="coverage">
@@ -124,7 +153,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LandingPageValidation.landingPageValidation (5)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LandingPageValidation.landingPageValidation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="swaglabs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.saucedemo.swaglabs.testCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.saucedemo.swaglabs.testCases" />
+      <option name="MAIN_CLASS_NAME" value="com.saucedemo.swaglabs.testCases.LandingPageValidation" />
+      <option name="METHOD_NAME" value="landingPageValidation" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LandingPageValidation.landingPageValidation" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="swaglabs" />
       <extension name="coverage">
         <pattern>
@@ -162,11 +209,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.EntryAdValidation" />
+        <item itemvalue="TestNG.EntryAdValidation.entryAdValidation" />
         <item itemvalue="TestNG.LandingPageValidation.landingPageValidation" />
         <item itemvalue="TestNG.LandingPageValidation.landingPageValidation (3)" />
         <item itemvalue="TestNG.LandingPageValidation.landingPageValidation (2)" />
-        <item itemvalue="TestNG.LandingPageValidation.landingPageValidation (1)" />
-        <item itemvalue="TestNG.LandingPageValidation.landingPageValidation (5)" />
       </list>
     </recent_temporary>
   </component>
